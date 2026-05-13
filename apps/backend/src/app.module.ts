@@ -8,11 +8,13 @@ import { CoursesModule } from './modules/courses/courses.module';
 import { AdaptiveModule } from './modules/adaptive/adaptive.module';
 import { EvaluationsModule } from './modules/evaluations/evaluations.module';
 import { GamificationModule } from './modules/gamification/gamification.module';
+import { ExportModule } from './modules/export/export.module';
 
 @Module({
   imports: [
     // Carga las variables de entorno del .env en process.env
-    ConfigModule.forRoot({ isGlobal: true }),
+    // envFilePath: busca primero en la raíz del monorepo (cuando pnpm corre desde apps/backend)
+    ConfigModule.forRoot({ isGlobal: true, envFilePath: ['../../.env', '.env'] }),
 
     // Conexión a PostgreSQL vía variables de entorno
     TypeOrmModule.forRootAsync({
@@ -40,6 +42,7 @@ import { GamificationModule } from './modules/gamification/gamification.module';
     AdaptiveModule,
     GamificationModule,
     EvaluationsModule,
+    ExportModule,
   ],
 })
 export class AppModule {}
