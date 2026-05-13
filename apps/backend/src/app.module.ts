@@ -7,6 +7,7 @@ import { UsersModule } from './modules/users/users.module';
 import { CoursesModule } from './modules/courses/courses.module';
 import { AdaptiveModule } from './modules/adaptive/adaptive.module';
 import { EvaluationsModule } from './modules/evaluations/evaluations.module';
+import { GamificationModule } from './modules/gamification/gamification.module';
 
 @Module({
   imports: [
@@ -37,6 +38,7 @@ import { EvaluationsModule } from './modules/evaluations/evaluations.module';
     UsersModule,
     CoursesModule,
     AdaptiveModule,
+    GamificationModule,
     EvaluationsModule,
   ],
 })

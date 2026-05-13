@@ -15,6 +15,11 @@ import { Tema } from '../../database/entities/tema.entity';
 import { Usuario } from '../../database/entities/usuario.entity';
 import { NivelDificultad, TipoEvaluacion, TipoPregunta } from '../../database/enums';
 import { AdaptiveService } from '../adaptive/adaptive.service';
+import {
+  GamificationService,
+  LogroDesbloqueado,
+  RankingActualizado,
+} from '../gamification/gamification.service';
 import { RespuestaItemDto } from './dto/finalize-evaluation.dto';
 
 const ORDEN_DIFICULTAD: NivelDificultad[] = [
@@ -61,8 +66,8 @@ export interface FinalizarEvaluacionRespuesta {
   accionAdaptativa: string;
   mensajeAdaptativo: string;
   puntosGanados: number;
-  logrosDesbloqueados: unknown[];
-  rankingActualizado: null;
+  logrosDesbloqueados: LogroDesbloqueado[];
+  rankingActualizado: RankingActualizado | null;
 }
 
 @Injectable()
@@ -81,6 +86,7 @@ export class EvaluationsService {
     @InjectRepository(Tema)
     private readonly temaRepo: Repository<Tema>,
     private readonly adaptiveService: AdaptiveService,
+    private readonly gamificationService: GamificationService,
   ) {}
 
   async crear(usuario: Usuario, temaId: number): Promise<IniciarEvaluacionRespuesta> {
@@ -199,10 +205,19 @@ export class EvaluationsService {
 
     await this.evaluacionRepo.update(evaluacionId, { finalizado_en: new Date() });
 
-    // TODO: invocar GamificationService.procesarEvaluacion({
-    //   evaluacionId, usuarioId: usuario.id, cursoId: evaluacion.curso_id,
-    //   puntajeLogro, numAciertosConsecutivos
-    // }) para actualizar puntos_curso y verificar logros.
+    const [rankingActualizado, logrosDesbloqueados] = await Promise.all([
+      this.gamificationService.asignarPuntos(
+        usuario.id,
+        evaluacion.curso_id,
+        puntajeLogro,
+      ),
+      this.gamificationService.verificarLogros(usuario.id, evaluacionId, {
+        nota,
+        tiempoPromedioRespuesta: tiempoPromedio,
+        numAciertosConsecutivos,
+        dificultadActual: decision.dificultadSiguiente,
+      }),
+    ]);
 
     return {
       nota,
@@ -216,8 +231,8 @@ export class EvaluationsService {
       accionAdaptativa: decision.accion,
       mensajeAdaptativo: decision.mensaje,
       puntosGanados: puntajeLogro,
-      logrosDesbloqueados: [],
-      rankingActualizado: null,
+      logrosDesbloqueados,
+      rankingActualizado,
     };
   }
 

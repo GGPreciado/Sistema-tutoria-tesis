@@ -15,7 +15,8 @@
       "Bash(curl -s http://localhost:3000/courses/1/topics -H 'X-User-Id: a06eb7c6-2a64-490e-a2ef-dfb9cf1fcc87')",
       "Bash(curl -s http://localhost:3000/courses/999/topics -H 'X-User-Id: a06eb7c6-2a64-490e-a2ef-dfb9cf1fcc87')",
       "Bash(Get-ChildItem -Recurse -Path \"c:\\\\Users\\\\USUARIO\\\\Desktop\\\\Sistema de Tutoría - Tesis\\\\apps\\\\backend\\\\src\\\\\" -ErrorAction SilentlyContinue | Select-Object FullName, PSIsContainer | Sort-Object FullName | ConvertTo-Json)",
-      "Bash(pnpm --filter backend test)"
+      "Bash(pnpm --filter backend test)",
+      "Bash(pnpm --filter backend test -- --testPathPattern=\"gamification\" --no-coverage)"
     ]
   }
 }

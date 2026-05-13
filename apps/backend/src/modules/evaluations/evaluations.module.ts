@@ -9,6 +9,7 @@ import { Tema } from '../../database/entities/tema.entity';
 import { Usuario } from '../../database/entities/usuario.entity';
 import { AuthGuard } from '../../common/guards/auth.guard';
 import { AdaptiveModule } from '../adaptive/adaptive.module';
+import { GamificationModule } from '../gamification/gamification.module';
 import { EvaluationsController } from './evaluations.controller';
 import { EvaluationsService } from './evaluations.service';
 
@@ -24,6 +25,7 @@ import { EvaluationsService } from './evaluations.service';
       Usuario,
     ]),
     AdaptiveModule,
+    GamificationModule,
   ],
   controllers: [EvaluationsController],
   providers: [EvaluationsService, AuthGuard],
