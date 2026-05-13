@@ -18,7 +18,7 @@ Este documento contiene 12 prompts ordenados que se ejecutan en sesiones separad
 Lee CLAUDE.md y docs/architecture.md.
 
 Tengo un repositorio existente con el JSONRulesEngine implementado, ubicado en
-`[RUTA_ABSOLUTA_AL_REPO_DEL_JSONRULES]`. Necesito que lo migres al paquete
+`.\_source\Reglas-adaptativas-backend`. Necesito que lo migres al paquete
 packages/adaptive-engine de este monorepo.
 
 Tareas:

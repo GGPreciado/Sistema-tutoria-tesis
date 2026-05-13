@@ -10,7 +10,7 @@
     "test:cov": "jest --coverage",
     "migration:run": "typeorm-ts-node-commonjs migration:run -d src/config/database.config.ts",
     "migration:revert": "typeorm-ts-node-commonjs migration:revert -d src/config/database.config.ts",
-    "migration:generate": "typeorm-ts-node-commonjs migration:generate -d src/config/database.config.ts",
+    "migration:generate": "typeorm-ts-node-commonjs migration:generate src/database/migrations/Migration -d src/config/database.config.ts",
     "seed:run": "ts-node src/database/seeds/seed.ts"
   },
   "dependencies": {

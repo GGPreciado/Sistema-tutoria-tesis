@@ -5,6 +5,9 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "echo \"Sin tests por ahora\" && exit 0"
+    "test": "node --test tests/evaluar.test.js"
+  },
+  "dependencies": {
+    "json-rules-engine": "^6.4.2"
   }
 }

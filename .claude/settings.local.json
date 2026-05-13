@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm install *)",
+      "Bash(node --test tests/evaluar.test.js)",
+      "Bash(docker-compose -f \"c:\\\\Users\\\\USUARIO\\\\Desktop\\\\Sistema de Tutoría - Tesis\\\\docker-compose.yml\" up -d)",
+      "Bash(pnpm --filter backend migration:run)",
+      "Bash(docker exec *)"
+    ]
+  }
+}
