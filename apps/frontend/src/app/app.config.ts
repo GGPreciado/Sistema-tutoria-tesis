@@ -1,7 +1,8 @@
 import { ApplicationConfig, provideZoneChangeDetection } from '@angular/core';
 import { provideRouter, withHashLocation } from '@angular/router';
-import { provideHttpClient } from '@angular/common/http';
+import { provideHttpClient, withInterceptors } from '@angular/common/http';
 import { routes } from './app.routes';
+import { apiInterceptor } from './core/api/api.interceptor';
 
 // Routing hash-based (#/login, #/home) para que funcione sin configuración
 // de servidor en el aula de cómputo. En Fase 2 se puede migrar a path-based
@@ -10,6 +11,6 @@ export const appConfig: ApplicationConfig = {
   providers: [
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideRouter(routes, withHashLocation()),
-    provideHttpClient(),
+    provideHttpClient(withInterceptors([apiInterceptor])),
   ],
 };

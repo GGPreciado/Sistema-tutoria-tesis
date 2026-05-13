@@ -27,7 +27,13 @@
       "Bash(curl -s http://localhost:3000/admin/export -H 'X-User-Id: a06eb7c6-2a64-490e-a2ef-dfb9cf1fcc87' -H 'X-Admin-Token: CAMBIA_ESTE_TOKEN_ANTES_DE_USAR' -o /tmp/export.csv)",
       "Read(//tmp/**)",
       "Bash(curl -s http://localhost:3000/admin/export -H 'X-User-Id: a06eb7c6-2a64-490e-a2ef-dfb9cf1fcc87' -H 'X-Admin-Token: CAMBIA_ESTE_TOKEN_ANTES_DE_USAR')",
-      "Bash(curl -s http://localhost:3000/admin/export -H 'X-User-Id: a06eb7c6-2a64-490e-a2ef-dfb9cf1fcc87')"
+      "Bash(curl -s http://localhost:3000/admin/export -H 'X-User-Id: a06eb7c6-2a64-490e-a2ef-dfb9cf1fcc87')",
+      "Bash(pnpm --filter frontend build)",
+      "Bash(Start-Process -NoNewWindow powershell -ArgumentList \"-Command\", \"pnpm --filter frontend dev 2>&1 | Out-File C:\\\\Users\\\\USUARIO\\\\AppData\\\\Local\\\\Temp\\\\ng-dev.log -Encoding utf8\")",
+      "Bash(Start-Sleep -Seconds 12)",
+      "Bash(Get-Content C:\\\\Users\\\\USUARIO\\\\AppData\\\\Local\\\\Temp\\\\ng-dev.log)",
+      "Bash(Select-Object -Last 20)",
+      "Bash(pnpm --filter frontend dev)"
     ]
   }
 }

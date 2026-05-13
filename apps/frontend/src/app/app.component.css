@@ -45,13 +45,36 @@
   width: 100%;
 }
 
+/* ---- Usuario en el header ---- */
+.header-usuario {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  opacity: 0.92;
+}
+
+.btn-logout {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 0.45rem 1.1rem;
+  border-radius: var(--radio-borde);
+  border: 1.5px solid rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-logout:hover {
+  background-color: rgba(255, 255, 255, 0.28);
+}
+
 /* ---- Slot chatbot — posición fija bottom-right (Fase 2) ---- */
 #chatbot-slot {
   position: fixed;
   bottom: 1.5rem;
   right: 1.5rem;
   z-index: 1000;
-  /* Dimensiones mínimas reservadas; el componente real las sobrescribirá */
   width: 0;
   height: 0;
 }
