@@ -1,0 +1,28 @@
+<div class="app-layout">
+
+  <!-- Header principal — se completa en el Paso 9 con nombre del usuario y logout -->
+  <header class="app-header">
+    <div class="header-contenido">
+      <span class="logo">Sistema de Tutoría</span>
+
+      <!-- Zona reservada: acceso al perfil y botón de logout (Paso 9) -->
+      <nav class="header-nav" aria-label="Navegación principal">
+        <!-- app-nav-usuario se agrega en el Paso 9 -->
+      </nav>
+    </div>
+  </header>
+
+  <!-- Área de contenido principal donde se renderizan las rutas -->
+  <main class="app-main">
+    <router-outlet />
+  </main>
+
+  <!-- ============================================================
+       Slot reservado para el chatbot flotante (Fase 2 — Sprint 3).
+       El componente app-chatbot se enchufará aquí sin mover nada.
+       ============================================================ -->
+  <div id="chatbot-slot" aria-hidden="true">
+    <!-- app-chatbot se inserta aquí en el Sprint 3 -->
+  </div>
+
+</div>

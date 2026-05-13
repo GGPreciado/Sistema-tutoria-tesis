@@ -1,0 +1,10 @@
+{
+  "name": "@sistema-tutoria/adaptive-engine",
+  "version": "0.1.0",
+  "description": "Motor de reglas adaptativas basado en JSONRulesEngine para el Sistema de Tutoría",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Sin tests por ahora\" && exit 0"
+  }
+}

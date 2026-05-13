@@ -1,0 +1,14 @@
+{
+  "name": "sistema-tutoria",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev:backend": "pnpm --filter backend dev",
+    "dev:frontend": "pnpm --filter frontend dev",
+    "test": "pnpm -r test"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  }
+}

@@ -1,0 +1,111 @@
+/* =============================================================
+   Estilos globales — orientados a primaria: tipografía grande,
+   contraste alto, botones amplios.
+   ============================================================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Paleta de colores */
+  --color-primario: #1a237e;   /* azul oscuro — header, botones primarios */
+  --color-secundario: #283593;
+  --color-acento: #f57c00;     /* naranja — logros, puntos */
+  --color-fondo: #f5f7fa;
+  --color-superficie: #ffffff;
+  --color-texto: #1a1a2e;
+  --color-texto-suave: #555577;
+  --color-borde: #dde1ef;
+  --color-exito: #2e7d32;
+  --color-error: #c62828;
+
+  /* Tipografía — mínimo 18px base para legibilidad en primaria */
+  --fuente-base: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --tam-texto-base: 18px;
+  --tam-texto-grande: 22px;
+  --tam-titulo: 28px;
+
+  /* Espaciado */
+  --espacio-sm: 0.5rem;
+  --espacio-md: 1rem;
+  --espacio-lg: 1.5rem;
+  --espacio-xl: 2rem;
+
+  /* Bordes */
+  --radio-borde: 8px;
+  --radio-borde-lg: 12px;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: var(--fuente-base);
+  font-size: var(--tam-texto-base);
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  line-height: 1.6;
+}
+
+/* Botones base — amplios y fáciles de presionar */
+button {
+  font-family: var(--fuente-base);
+  font-size: var(--tam-texto-base);
+  cursor: pointer;
+  border: none;
+  border-radius: var(--radio-borde);
+  padding: 0.75rem 1.5rem;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Inputs */
+input,
+select,
+textarea {
+  font-family: var(--fuente-base);
+  font-size: var(--tam-texto-base);
+  border: 2px solid var(--color-borde);
+  border-radius: var(--radio-borde);
+  padding: 0.75rem 1rem;
+  width: 100%;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--color-primario);
+}
+
+/* Links */
+a {
+  color: var(--color-primario);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Utilidades */
+.texto-centro {
+  text-align: center;
+}
+
+.texto-grande {
+  font-size: var(--tam-texto-grande);
+}
+
+.texto-titulo {
+  font-size: var(--tam-titulo);
+  font-weight: 700;
+}

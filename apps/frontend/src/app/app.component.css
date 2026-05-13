@@ -1,0 +1,57 @@
+.app-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---- Header ---- */
+.app-header {
+  background-color: var(--color-primario);
+  color: #ffffff;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-contenido {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* ---- Contenido principal ---- */
+.app-main {
+  flex: 1;
+  padding: var(--espacio-xl) var(--espacio-lg);
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* ---- Slot chatbot — posición fija bottom-right (Fase 2) ---- */
+#chatbot-slot {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 1000;
+  /* Dimensiones mínimas reservadas; el componente real las sobrescribirá */
+  width: 0;
+  height: 0;
+}

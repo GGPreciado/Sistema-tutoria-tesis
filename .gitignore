@@ -1,0 +1,40 @@
+# Dependencias
+node_modules/
+.pnpm-store/
+
+# Outputs de build
+dist/
+out-tsc/
+.angular/
+
+# Variables de entorno (nunca commitear el .env real)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# TypeScript compiled output
+*.js.map
+
+# Cobertura de tests
+coverage/
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeORM CLI cache
+.typeorm/
