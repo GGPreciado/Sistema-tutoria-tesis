@@ -1,0 +1,30 @@
+<div class="seleccion-curso">
+
+  <header class="pagina-encabezado">
+    <h2 class="pagina-titulo">¿Qué quieres aprender hoy?</h2>
+    <p class="pagina-subtitulo">Elige un curso para comenzar</p>
+  </header>
+
+  @if (cargando()) {
+    <p class="estado-texto">Cargando cursos…</p>
+  } @else if (error()) {
+    <p class="estado-error" role="alert">{{ error() }}</p>
+  } @else if (cursos().length === 0) {
+    <p class="estado-texto">No hay cursos disponibles por el momento.</p>
+  } @else {
+    <div class="cursos-grilla">
+      @for (curso of cursos(); track curso.id) {
+        <button
+          class="curso-tarjeta"
+          (click)="seleccionarCurso(curso.id)"
+          [attr.aria-label]="'Ir a ' + curso.nombre"
+        >
+          <span class="curso-icono">{{ iconoCurso(curso.nombre) }}</span>
+          <span class="curso-nombre">{{ curso.nombre }}</span>
+          <span class="curso-flecha">→</span>
+        </button>
+      }
+    </div>
+  }
+
+</div>

@@ -33,7 +33,9 @@
       "Bash(Start-Sleep -Seconds 12)",
       "Bash(Get-Content C:\\\\Users\\\\USUARIO\\\\AppData\\\\Local\\\\Temp\\\\ng-dev.log)",
       "Bash(Select-Object -Last 20)",
-      "Bash(pnpm --filter frontend dev)"
+      "Bash(pnpm --filter frontend dev)",
+      "Bash(pnpm --filter frontend exec ng build --configuration=development)",
+      "Bash(node -e \"const p=require\\('./apps/frontend/package.json'\\); console.log\\('@angular/core:', p.dependencies['@angular/core'], '@angular/router:', p.dependencies['@angular/router']\\)\")"
     ]
   }
 }

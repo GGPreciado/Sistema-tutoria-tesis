@@ -10,20 +10,34 @@ export const routes: Routes = [
       ),
   },
   {
-    path: 'home',
+    path: 'courses',
     loadComponent: () =>
-      import('./features/home/home.component').then(
-        (m) => m.HomeComponent,
+      import('./features/course-selection/course-selection.component').then(
+        (m) => m.CourseSelectionComponent,
       ),
     canActivate: [authGuard],
   },
   {
+    path: 'courses/:cursoId/topics',
+    loadComponent: () =>
+      import('./features/topic-selection/topic-selection.component').then(
+        (m) => m.TopicSelectionComponent,
+      ),
+    canActivate: [authGuard],
+  },
+  // /home y raíz redirigen a courses; el authGuard en /courses hace el resto
+  {
+    path: 'home',
+    redirectTo: 'courses',
+    pathMatch: 'full',
+  },
+  {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'courses',
     pathMatch: 'full',
   },
   {
     path: '**',
-    redirectTo: 'home',
+    redirectTo: 'courses',
   },
 ];

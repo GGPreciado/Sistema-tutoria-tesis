@@ -1,0 +1,132 @@
+.seleccion-tema {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: var(--espacio-md) 0;
+}
+
+.pagina-nav {
+  margin-bottom: var(--espacio-lg);
+}
+
+.btn-volver {
+  background: none;
+  border: 2px solid var(--color-borde);
+  color: var(--color-primario);
+  font-weight: 600;
+  padding: 0.5rem 1.2rem;
+  border-radius: var(--radio-borde);
+  font-size: var(--tam-texto-base);
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.btn-volver:hover {
+  border-color: var(--color-primario);
+  background-color: rgba(26, 35, 126, 0.06);
+}
+
+.pagina-encabezado {
+  margin-bottom: var(--espacio-xl);
+  text-align: center;
+}
+
+.pagina-titulo {
+  font-size: var(--tam-titulo);
+  font-weight: 700;
+  color: var(--color-primario);
+  margin-bottom: 0.4rem;
+}
+
+.pagina-subtitulo {
+  font-size: var(--tam-texto-grande);
+  color: var(--color-texto-suave);
+}
+
+/* Sección por grado */
+.grado-seccion {
+  margin-bottom: var(--espacio-xl);
+}
+
+.grado-titulo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: var(--tam-texto-grande);
+  font-weight: 700;
+  color: var(--color-texto);
+  margin-bottom: var(--espacio-md);
+}
+
+.grado-badge {
+  background-color: var(--color-primario);
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radio-borde);
+}
+
+/* Grilla de temas */
+.temas-grilla {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--espacio-md);
+}
+
+.tema-boton {
+  background: var(--color-superficie);
+  border: 2px solid var(--color-borde);
+  border-radius: var(--radio-borde-lg);
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
+  cursor: pointer;
+  text-align: left;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.1s ease;
+}
+
+.tema-boton:hover {
+  border-color: var(--color-acento);
+  box-shadow: 0 4px 14px rgba(245, 124, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.tema-boton:active {
+  transform: translateY(0) scale(0.98);
+}
+
+.tema-nombre {
+  font-size: var(--tam-texto-grande);
+  font-weight: 600;
+  color: var(--color-texto);
+  line-height: 1.35;
+}
+
+.tema-accion {
+  font-size: var(--tam-texto-base);
+  color: var(--color-acento);
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.tema-boton:hover .tema-accion {
+  opacity: 1;
+}
+
+/* Estados */
+.estado-texto {
+  text-align: center;
+  color: var(--color-texto-suave);
+  font-size: var(--tam-texto-grande);
+  padding: 3rem 0;
+}
+
+.estado-error {
+  text-align: center;
+  color: var(--color-error);
+  font-size: var(--tam-texto-grande);
+  padding: 2rem 0;
+  font-weight: 500;
+}

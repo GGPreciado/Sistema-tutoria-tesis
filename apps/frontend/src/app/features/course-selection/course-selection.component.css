@@ -1,0 +1,92 @@
+.seleccion-curso {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: var(--espacio-md) 0;
+}
+
+.pagina-encabezado {
+  margin-bottom: var(--espacio-xl);
+  text-align: center;
+}
+
+.pagina-titulo {
+  font-size: var(--tam-titulo);
+  font-weight: 700;
+  color: var(--color-primario);
+  margin-bottom: 0.4rem;
+}
+
+.pagina-subtitulo {
+  font-size: var(--tam-texto-grande);
+  color: var(--color-texto-suave);
+}
+
+/* Grilla de tarjetas */
+.cursos-grilla {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: var(--espacio-lg);
+}
+
+.curso-tarjeta {
+  background: var(--color-superficie);
+  border: 2px solid var(--color-borde);
+  border-radius: var(--radio-borde-lg);
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.1s ease;
+  text-align: center;
+}
+
+.curso-tarjeta:hover {
+  border-color: var(--color-primario);
+  box-shadow: 0 4px 16px rgba(26, 35, 126, 0.15);
+  transform: translateY(-2px);
+}
+
+.curso-tarjeta:active {
+  transform: translateY(0) scale(0.98);
+}
+
+.curso-icono {
+  font-size: 3.5rem;
+  line-height: 1;
+}
+
+.curso-nombre {
+  font-size: var(--tam-texto-grande);
+  font-weight: 700;
+  color: var(--color-texto);
+}
+
+.curso-flecha {
+  font-size: 1.4rem;
+  color: var(--color-primario);
+  font-weight: 700;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.curso-tarjeta:hover .curso-flecha {
+  opacity: 1;
+}
+
+/* Estados */
+.estado-texto {
+  text-align: center;
+  color: var(--color-texto-suave);
+  font-size: var(--tam-texto-grande);
+  padding: 3rem 0;
+}
+
+.estado-error {
+  text-align: center;
+  color: var(--color-error);
+  font-size: var(--tam-texto-grande);
+  padding: 2rem 0;
+  font-weight: 500;
+}

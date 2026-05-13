@@ -10,5 +10,6 @@ export const authGuard: CanActivateFn = () => {
     return true;
   }
 
-  return router.createUrlTree(['/login']);
+  // parseUrl es más confiable que createUrlTree durante la navegación inicial
+  return router.parseUrl('/login');
 };

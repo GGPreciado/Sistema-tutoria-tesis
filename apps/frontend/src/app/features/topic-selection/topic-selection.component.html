@@ -1,0 +1,41 @@
+<div class="seleccion-tema">
+
+  <div class="pagina-nav">
+    <button class="btn-volver" (click)="volver()">← Volver a cursos</button>
+  </div>
+
+  <header class="pagina-encabezado">
+    <h2 class="pagina-titulo">Elige un tema</h2>
+    <p class="pagina-subtitulo">Selecciona el tema que quieres practicar</p>
+  </header>
+
+  @if (cargando()) {
+    <p class="estado-texto">Cargando temas…</p>
+  } @else if (error()) {
+    <p class="estado-error" role="alert">{{ error() }}</p>
+  } @else if (gruposPorGrado().length === 0) {
+    <p class="estado-texto">No hay temas disponibles para este curso.</p>
+  } @else {
+    @for (grupo of gruposPorGrado(); track grupo.grado) {
+      <section class="grado-seccion">
+        <h3 class="grado-titulo">
+          <span class="grado-badge">{{ grupo.grado }}°</span>
+          Grado
+        </h3>
+        <div class="temas-grilla">
+          @for (tema of grupo.temas; track tema.id) {
+            <button
+              class="tema-boton"
+              (click)="seleccionarTema(tema.id)"
+              [attr.aria-label]="'Practicar ' + tema.nombre"
+            >
+              <span class="tema-nombre">{{ tema.nombre }}</span>
+              <span class="tema-accion">Practicar →</span>
+            </button>
+          }
+        </div>
+      </section>
+    }
+  }
+
+</div>
