@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s http://localhost:3000/health)",
+      "Bash(docker-compose up *)",
+      "Bash(pnpm --filter backend dev)",
+      "Bash(Start-Sleep -Seconds 8)",
+      "Bash(curl -s -X POST http://localhost:3000/auth/login -H \"Content-Type: application/json\" -d '{\"codigo\":\"EST001\",\"password\":\"pass1234\"}')",
+      "Bash(pnpm --filter backend seed:run)",
+      "Bash(curl -s -X POST http://localhost:3000/auth/login -H \"Content-Type: application/json\" -d '{\"codigo\":\"VAL001\",\"password\":\"pass1234\"}')",
+      "Bash(python3 -m json.tool)",
+      "Bash(curl -s http://localhost:3000/courses)",
+      "Bash(curl -s -X POST http://localhost:3000/auth/login -H \"Content-Type: application/json\" -d \"{\\\\\"codigo\\\\\":\\\\\"VAL001\\\\\",\\\\\"password\\\\\":\\\\\"pass1234\\\\\"}\")",
+      "Bash(curl -s http://localhost:3000/courses -H 'X-User-Id: a06eb7c6-2a64-490e-a2ef-dfb9cf1fcc87')",
+      "Bash(curl -s http://localhost:3000/courses/1/topics -H 'X-User-Id: a06eb7c6-2a64-490e-a2ef-dfb9cf1fcc87')",
+      "Bash(curl -s http://localhost:3000/courses/999/topics -H 'X-User-Id: a06eb7c6-2a64-490e-a2ef-dfb9cf1fcc87')"
+    ]
+  }
+}

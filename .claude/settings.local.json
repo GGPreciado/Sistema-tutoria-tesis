@@ -7,7 +7,9 @@
       "Bash(pnpm --filter backend migration:run)",
       "Bash(docker exec *)",
       "PowerShell(docker exec tutoria-db psql -U postgres -d tutoria -c \"\\\\dt\")",
-      "Bash(pnpm --filter backend test --testPathPattern=\"auth.controller|users.controller\" --forceExit)"
+      "Bash(pnpm --filter backend test --testPathPattern=\"auth.controller|users.controller\" --forceExit)",
+      "Bash(pnpm --filter backend test -- --testPathPattern=\"courses.controller.spec\" --verbose)",
+      "Bash(npx jest *)"
     ]
   }
 }
