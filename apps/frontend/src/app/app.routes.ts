@@ -25,6 +25,22 @@ export const routes: Routes = [
       ),
     canActivate: [authGuard],
   },
+  {
+    path: 'evaluation/:temaId',
+    loadComponent: () =>
+      import('./features/evaluation/evaluation.component').then(
+        (m) => m.EvaluationComponent,
+      ),
+    canActivate: [authGuard],
+  },
+  {
+    path: 'results',
+    loadComponent: () =>
+      import('./features/results/results.component').then(
+        (m) => m.ResultsComponent,
+      ),
+    canActivate: [authGuard],
+  },
   // /home y raíz redirigen a courses; el authGuard en /courses hace el resto
   {
     path: 'home',

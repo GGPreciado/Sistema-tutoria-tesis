@@ -50,7 +50,8 @@ export class TopicSelectionComponent implements OnInit {
   }
 
   seleccionarTema(temaId: number): void {
-    this.router.navigate(['/evaluation', temaId]);
+    const cursoId = Number(this.route.snapshot.paramMap.get('cursoId'));
+    this.router.navigate(['/evaluation', temaId], { state: { cursoId } });
   }
 
   volver(): void {

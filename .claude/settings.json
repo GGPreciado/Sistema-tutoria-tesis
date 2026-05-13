@@ -35,7 +35,11 @@
       "Bash(Select-Object -Last 20)",
       "Bash(pnpm --filter frontend dev)",
       "Bash(pnpm --filter frontend exec ng build --configuration=development)",
-      "Bash(node -e \"const p=require\\('./apps/frontend/package.json'\\); console.log\\('@angular/core:', p.dependencies['@angular/core'], '@angular/router:', p.dependencies['@angular/router']\\)\")"
+      "Bash(node -e \"const p=require\\('./apps/frontend/package.json'\\); console.log\\('@angular/core:', p.dependencies['@angular/core'], '@angular/router:', p.dependencies['@angular/router']\\)\")",
+      "PowerShell(cd \"c:\\\\Users\\\\USUARIO\\\\Desktop\\\\Sistema de Tutoría - Tesis\"; Get-ChildItem -Path \"apps\\\\frontend\\\\src\\\\app\" -Recurse -File | ForEach-Object { [PSCustomObject]@{ Path=$_.FullName; Lines=\\(Get-Content $_.FullName | Measure-Object -Line\\).Lines } } | Sort-Object Path | Format-Table -AutoSize)",
+      "PowerShell(cd \"c:\\\\Users\\\\USUARIO\\\\Desktop\\\\Sistema de Tutoría - Tesis\"; $files = Get-ChildItem -Path \"apps\\\\frontend\\\\src\\\\app\" -Recurse -File; foreach \\($f in $files\\) { $lines = \\(Get-Content $f.FullName 2>$null | Measure-Object -Line\\).Lines; Write-Host \"$\\($f.FullName\\): $lines lines\" })",
+      "Bash(pnpm --filter frontend exec tsc --noEmit)",
+      "Bash(curl -s http://localhost:4200)"
     ]
   }
 }

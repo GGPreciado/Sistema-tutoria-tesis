@@ -1,0 +1,112 @@
+<div class="resultados">
+
+  @if (resultado()) {
+
+    <header class="res-header">
+      <h2 class="res-titulo">¡Evaluación completada!</h2>
+      <p class="res-subtitulo">Aquí están tus resultados</p>
+    </header>
+
+    <!-- Nota destacada -->
+    <div
+      class="nota-destacada"
+      [class.nota-alta]="resultado()!.nota >= 80"
+      [class.nota-media]="resultado()!.nota >= 60 && resultado()!.nota < 80"
+      [class.nota-baja]="resultado()!.nota < 60"
+    >
+      <span class="nota-valor">{{ resultado()!.nota }}</span>
+      <span class="nota-label">/ 100</span>
+    </div>
+
+    <!-- Sección: Desempeño -->
+    <section class="res-seccion">
+      <h3 class="seccion-titulo">Desempeño de la evaluación</h3>
+      <div class="metricas-grilla">
+        <div class="metrica-card">
+          <span class="metrica-valor verde">{{ resultado()!.numAciertos }}</span>
+          <span class="metrica-etiqueta">Aciertos</span>
+        </div>
+        <div class="metrica-card">
+          <span class="metrica-valor rojo">{{ resultado()!.numErrores }}</span>
+          <span class="metrica-etiqueta">Errores</span>
+        </div>
+        <div class="metrica-card">
+          <span class="metrica-valor azul">{{ resultado()!.tiempoPromedioRespuesta }}s</span>
+          <span class="metrica-etiqueta">Tiempo promedio</span>
+        </div>
+        <div class="metrica-card">
+          <span class="metrica-valor naranja">{{ resultado()!.numAciertosConsecutivos }}</span>
+          <span class="metrica-etiqueta">Racha máxima</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección: Retroalimentación del sistema -->
+    <section class="res-seccion">
+      <h3 class="seccion-titulo">Retroalimentación del sistema</h3>
+      <div
+        class="adaptativo-card"
+        [class.accion-subir]="resultado()!.accionAdaptativa === 'subir'"
+        [class.accion-mantener]="resultado()!.accionAdaptativa === 'mantener'"
+        [class.accion-bajar]="resultado()!.accionAdaptativa === 'bajar'"
+      >
+        <p class="accion-tag">{{ etiquetaAccion(resultado()!.accionAdaptativa) }}</p>
+        <p class="mensaje-adaptativo">{{ resultado()!.mensajeAdaptativo }}</p>
+        <p class="dificultad-nueva">
+          Tu nuevo nivel:
+          <strong>{{ etiquetaDificultad(resultado()!.dificultadActual) }}</strong>
+        </p>
+      </div>
+    </section>
+
+    <!-- Sección: Puntos y ranking -->
+    <section class="res-seccion">
+      <h3 class="seccion-titulo">Puntos ganados para el Ranking</h3>
+      <div class="puntos-card">
+        <div class="puntos-ganados">
+          <span class="puntos-signo">+</span>
+          <span class="puntos-valor">{{ resultado()!.puntosGanados }}</span>
+          <span class="puntos-label">puntos</span>
+        </div>
+        <div class="ranking-info">
+          <div class="ranking-dato">
+            <span class="ranking-num">{{ resultado()!.rankingActualizado.puntosTotal }}</span>
+            <span class="ranking-desc">puntos totales</span>
+          </div>
+          <div class="ranking-divisor"></div>
+          <div class="ranking-dato">
+            <span class="ranking-num">#{{ resultado()!.rankingActualizado.posicion }}</span>
+            <span class="ranking-desc">posición en ranking</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Logros desbloqueados (aparece con animación) -->
+    @if (mostrarLogros() && resultado()!.logrosDesbloqueados.length > 0) {
+      <section class="res-seccion logros-seccion">
+        <h3 class="seccion-titulo">¡Nuevos logros desbloqueados!</h3>
+        <div class="logros-lista">
+          @for (logro of resultado()!.logrosDesbloqueados; track logro.id) {
+            <div class="logro-card">
+              <span class="logro-icono" aria-hidden="true">★</span>
+              <div class="logro-info">
+                <p class="logro-nombre">{{ logro.nombre }}</p>
+                <p class="logro-desc">{{ logro.descripcion }}</p>
+              </div>
+            </div>
+          }
+        </div>
+      </section>
+    }
+
+    <!-- Botón volver -->
+    <div class="res-footer">
+      <button class="btn-volver-temas" (click)="volverATemas()">
+        Volver a selección de temas
+      </button>
+    </div>
+
+  }
+
+</div>

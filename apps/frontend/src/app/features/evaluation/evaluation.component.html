@@ -1,0 +1,96 @@
+<div class="evaluacion">
+
+  <div class="pagina-nav">
+    <button class="btn-volver" (click)="volver()">← Volver a temas</button>
+  </div>
+
+  @if (cargando()) {
+    <p class="estado-texto">Cargando preguntas…</p>
+  } @else if (error() && !evaluacion()) {
+    <p class="estado-error" role="alert">{{ error() }}</p>
+  } @else if (evaluacion()) {
+
+    <header class="eval-encabezado">
+      <h2 class="eval-titulo">{{ evaluacion()!.temaNombre }}</h2>
+      <div class="progreso-contenedor">
+        <span class="progreso-texto">
+          {{ progreso() }} de {{ evaluacion()!.preguntas.length }} preguntas respondidas
+        </span>
+        <div
+          class="barra-progreso"
+          role="progressbar"
+          [attr.aria-valuenow]="progreso()"
+          [attr.aria-valuemax]="evaluacion()!.preguntas.length"
+          [attr.aria-label]="'Progreso de la evaluación'"
+        >
+          <div
+            class="barra-relleno"
+            [style.width.%]="(progreso() / evaluacion()!.preguntas.length) * 100"
+          ></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="preguntas-lista">
+      @for (pregunta of evaluacion()!.preguntas; track pregunta.id; let idx = $index) {
+        <div
+          class="pregunta-tarjeta"
+          [class.respondida]="estaRespondida(pregunta.id)"
+        >
+          <p class="pregunta-num">
+            Pregunta {{ idx + 1 }} de {{ evaluacion()!.preguntas.length }}
+          </p>
+          <p class="pregunta-enunciado">{{ pregunta.enunciado }}</p>
+
+          <div
+            class="opciones-lista"
+            role="radiogroup"
+            [attr.aria-label]="'Opciones de la pregunta ' + (idx + 1)"
+          >
+            @for (opcion of pregunta.opciones; track opcion.id) {
+              <label
+                class="opcion-etiqueta"
+                [class.seleccionada]="estaSeleccionada(pregunta.id, opcion.id)"
+              >
+                <input
+                  type="radio"
+                  class="opcion-radio"
+                  [name]="'p' + pregunta.id"
+                  [checked]="estaSeleccionada(pregunta.id, opcion.id)"
+                  (change)="seleccionarOpcion(pregunta.id, opcion.id)"
+                />
+                <span class="opcion-indicador" aria-hidden="true"></span>
+                <span class="opcion-texto">{{ opcion.texto }}</span>
+              </label>
+            }
+          </div>
+        </div>
+      }
+    </div>
+
+    <div class="eval-footer">
+      @if (error()) {
+        <p class="estado-error" role="alert">{{ error() }}</p>
+      }
+      @if (!todasRespondidas() && !enviando()) {
+        <p class="aviso-incompleto">
+          Responde todas las preguntas para poder finalizar.
+        </p>
+      }
+      <button
+        class="btn-finalizar"
+        [disabled]="!todasRespondidas() || enviando()"
+        (click)="finalizarEvaluacion()"
+        aria-label="Finalizar evaluación y ver resultados"
+      >
+        @if (enviando()) {
+          Enviando respuestas…
+        } @else {
+          Finalizar evaluación
+        }
+      </button>
+    </div>
+
+  }
+
+</div>

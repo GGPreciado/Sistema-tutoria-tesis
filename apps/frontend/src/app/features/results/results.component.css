@@ -1,0 +1,328 @@
+.resultados {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: var(--espacio-md) 0 var(--espacio-xl);
+  animation: aparecer 0.4s ease;
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Encabezado */
+.res-header {
+  text-align: center;
+  margin-bottom: var(--espacio-xl);
+}
+
+.res-titulo {
+  font-size: var(--tam-titulo);
+  font-weight: 700;
+  color: var(--color-primario);
+  margin-bottom: 0.3rem;
+}
+
+.res-subtitulo {
+  font-size: var(--tam-texto-grande);
+  color: var(--color-texto-suave);
+}
+
+/* Nota grande */
+.nota-destacada {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: var(--espacio-xl);
+  margin-bottom: var(--espacio-lg);
+  border-radius: var(--radio-borde-lg);
+  border: 3px solid transparent;
+  text-align: center;
+}
+
+.nota-valor {
+  font-size: 4.5rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.nota-label {
+  font-size: var(--tam-texto-grande);
+  font-weight: 500;
+  opacity: 0.65;
+}
+
+.nota-alta {
+  background-color: rgba(46, 125, 50, 0.08);
+  border-color: var(--color-exito);
+  color: var(--color-exito);
+}
+
+.nota-media {
+  background-color: rgba(245, 124, 0, 0.08);
+  border-color: var(--color-acento);
+  color: var(--color-acento);
+}
+
+.nota-baja {
+  background-color: rgba(198, 40, 40, 0.08);
+  border-color: var(--color-error);
+  color: var(--color-error);
+}
+
+/* Secciones genéricas */
+.res-seccion {
+  background: var(--color-superficie);
+  border: 2px solid var(--color-borde);
+  border-radius: var(--radio-borde-lg);
+  padding: var(--espacio-lg) var(--espacio-xl);
+  margin-bottom: var(--espacio-lg);
+}
+
+.seccion-titulo {
+  font-size: var(--tam-texto-grande);
+  font-weight: 700;
+  color: var(--color-primario);
+  padding-bottom: 0.6rem;
+  margin-bottom: var(--espacio-lg);
+  border-bottom: 2px solid var(--color-borde);
+}
+
+/* Grilla de métricas */
+.metricas-grilla {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--espacio-md);
+}
+
+@media (min-width: 480px) {
+  .metricas-grilla {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.metrica-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  padding: var(--espacio-md);
+  background: var(--color-fondo);
+  border-radius: var(--radio-borde);
+  text-align: center;
+}
+
+.metrica-valor {
+  font-size: 2.2rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.metrica-valor.verde  { color: var(--color-exito); }
+.metrica-valor.rojo   { color: var(--color-error); }
+.metrica-valor.azul   { color: var(--color-primario); }
+.metrica-valor.naranja { color: var(--color-acento); }
+
+.metrica-etiqueta {
+  font-size: var(--tam-texto-base);
+  color: var(--color-texto-suave);
+  font-weight: 500;
+}
+
+/* Tarjeta adaptativa */
+.adaptativo-card {
+  padding: var(--espacio-md) var(--espacio-lg);
+  border-radius: var(--radio-borde);
+  border-left: 5px solid;
+}
+
+.accion-subir {
+  background-color: rgba(46, 125, 50, 0.07);
+  border-left-color: var(--color-exito);
+}
+
+.accion-mantener {
+  background-color: rgba(26, 35, 126, 0.06);
+  border-left-color: var(--color-primario);
+}
+
+.accion-bajar {
+  background-color: rgba(245, 124, 0, 0.07);
+  border-left-color: var(--color-acento);
+}
+
+.accion-tag {
+  font-size: var(--tam-texto-base);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-texto);
+  margin-bottom: 0.6rem;
+}
+
+.mensaje-adaptativo {
+  font-size: var(--tam-texto-grande);
+  color: var(--color-texto);
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+}
+
+.dificultad-nueva {
+  font-size: var(--tam-texto-base);
+  color: var(--color-texto-suave);
+}
+
+/* Tarjeta de puntos */
+.puntos-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--espacio-lg);
+  text-align: center;
+}
+
+.puntos-ganados {
+  display: flex;
+  align-items: baseline;
+  gap: 0.2rem;
+  color: var(--color-acento);
+}
+
+.puntos-signo {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.puntos-valor {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.puntos-label {
+  font-size: var(--tam-texto-grande);
+  font-weight: 600;
+}
+
+.ranking-info {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-xl);
+}
+
+.ranking-divisor {
+  width: 2px;
+  height: 44px;
+  background-color: var(--color-borde);
+  border-radius: 1px;
+}
+
+.ranking-dato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.ranking-num {
+  font-size: var(--tam-texto-grande);
+  font-weight: 700;
+  color: var(--color-primario);
+}
+
+.ranking-desc {
+  font-size: var(--tam-texto-base);
+  color: var(--color-texto-suave);
+}
+
+/* Sección de logros */
+.logros-seccion {
+  border-color: var(--color-acento);
+  background-color: rgba(245, 124, 0, 0.04);
+  animation: aparecer 0.4s ease;
+}
+
+.logros-seccion .seccion-titulo {
+  color: var(--color-acento);
+  border-bottom-color: rgba(245, 124, 0, 0.25);
+}
+
+.logros-lista {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-md);
+}
+
+.logro-card {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-md);
+  padding: var(--espacio-md);
+  background: var(--color-superficie);
+  border: 2px solid var(--color-acento);
+  border-radius: var(--radio-borde);
+  animation: deslizar 0.35s ease backwards;
+}
+
+@keyframes deslizar {
+  from {
+    opacity: 0;
+    transform: translateX(-16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.logro-icono {
+  font-size: 2rem;
+  color: var(--color-acento);
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.logro-nombre {
+  font-size: var(--tam-texto-base);
+  font-weight: 700;
+  color: var(--color-texto);
+  margin-bottom: 0.2rem;
+}
+
+.logro-desc {
+  font-size: var(--tam-texto-base);
+  color: var(--color-texto-suave);
+}
+
+/* Footer */
+.res-footer {
+  text-align: center;
+  padding-top: var(--espacio-lg);
+}
+
+.btn-volver-temas {
+  background-color: var(--color-primario);
+  color: #ffffff;
+  font-size: var(--tam-texto-grande);
+  font-weight: 700;
+  padding: 1rem 2.5rem;
+  border-radius: var(--radio-borde-lg);
+  border: none;
+  transition:
+    background-color 0.2s ease,
+    transform 0.15s ease,
+    box-shadow 0.2s ease;
+}
+
+.btn-volver-temas:hover {
+  background-color: var(--color-secundario);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(26, 35, 126, 0.3);
+}
