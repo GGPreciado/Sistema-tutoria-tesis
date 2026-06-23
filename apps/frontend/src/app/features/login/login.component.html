@@ -4,23 +4,21 @@
     <div class="login-logo">
       <span class="logo-icono">🎓</span>
       <h1 class="logo-titulo">Sistema de Tutoría</h1>
-      <p class="logo-subtitulo">Aprende a tu ritmo</p>
     </div>
 
     <form class="login-formulario" [formGroup]="formulario" (ngSubmit)="ingresar()">
 
       <div class="campo">
-        <label for="codigo" class="campo-etiqueta">Código de estudiante</label>
+        <label for="codigo" class="campo-etiqueta">Nombre de usuario</label>
         <input
           id="codigo"
           type="text"
           formControlName="codigo"
-          placeholder="Ej: VAL001"
           autocomplete="username"
           [class.campo-invalido]="camposCodigo.touched && camposCodigo.invalid"
         />
         @if (camposCodigo.touched && camposCodigo.hasError('required')) {
-          <span class="campo-error" role="alert">Ingresa tu código de estudiante.</span>
+          <span class="campo-error" role="alert">Ingresa tu nombre de usuario</span>
         }
       </div>
 
@@ -30,12 +28,11 @@
           id="password"
           type="password"
           formControlName="password"
-          placeholder="Ingresa tu contraseña"
           autocomplete="current-password"
           [class.campo-invalido]="camposPassword.touched && camposPassword.invalid"
         />
         @if (camposPassword.touched && camposPassword.hasError('required')) {
-          <span class="campo-error" role="alert">Ingresa tu contraseña.</span>
+          <span class="campo-error" role="alert">Ingresa tu contraseña</span>
         }
       </div>
 

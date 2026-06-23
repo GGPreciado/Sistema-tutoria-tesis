@@ -1,0 +1,90 @@
+<div class="perfil-page">
+
+  @if (cargando()) {
+    <div class="estado-carga" role="status" aria-live="polite">
+      <span class="spinner" aria-hidden="true"></span>
+      <p>Cargando perfil…</p>
+    </div>
+  }
+
+  @if (error()) {
+    <div class="estado-error" role="alert">
+      <p>{{ error() }}</p>
+      <button class="btn-reintentar" (click)="ngOnInit()">Reintentar</button>
+    </div>
+  }
+
+  @if (perfil()) {
+
+    <!-- Encabezado del perfil -->
+    <header class="perfil-header">
+      <div class="avatar" aria-hidden="true">{{ perfil()!.nombre[0] }}</div>
+      <div class="perfil-info">
+        <h2 class="perfil-nombre">{{ perfil()!.nombre }}</h2>
+        <p class="perfil-codigo">Código: <strong>{{ perfil()!.codigo }}</strong></p>
+      </div>
+      <div class="puntos-totales">
+        <span class="puntos-numero">{{ perfil()!.puntosTotal }}</span>
+        <span class="puntos-label">puntos totales</span>
+      </div>
+    </header>
+
+    <!-- Puntos y ranking por curso -->
+    <section class="perfil-seccion">
+      <h3 class="seccion-titulo">Cursos y ranking</h3>
+      @if (perfil()!.puntosPorCurso.length === 0) {
+        <p class="sin-datos">Aún no has completado evaluaciones en ningún curso.</p>
+      } @else {
+        <div class="cursos-lista">
+          @for (item of perfil()!.puntosPorCurso; track item.cursoId) {
+            <div class="curso-card">
+              <div class="curso-nombre">{{ item.cursoNombre }}</div>
+              <div class="curso-stats">
+                <span class="curso-puntos">{{ item.puntosTotal }} pts</span>
+                <span class="curso-posicion">#{{ item.posicion }}</span>
+              </div>
+            </div>
+          }
+        </div>
+      }
+    </section>
+
+    <!-- Últimos logros -->
+    <section class="perfil-seccion logros-seccion">
+      <h3 class="seccion-titulo logros-titulo">Últimos logros</h3>
+      @if (perfil()!.logros.length === 0) {
+        <p class="sin-datos">Aún no has desbloqueado logros. ¡Sigue practicando!</p>
+      } @else {
+        <div class="logros-lista">
+          @for (logro of perfil()!.logros; track logro.id) {
+            <div class="logro-card">
+              @if (logro.iconoUrl) {
+                <img
+                  class="logro-icono-img"
+                  [src]="logro.iconoUrl"
+                  [alt]="logro.nombre"
+                />
+              } @else {
+                <span class="logro-icono" aria-hidden="true">★</span>
+              }
+              <div class="logro-info">
+                <p class="logro-nombre">{{ logro.nombre }}</p>
+                <p class="logro-desc">{{ logro.descripcion }}</p>
+                <p class="logro-fecha">Obtenido: {{ formatearFecha(logro.obtenidoEn) }}</p>
+              </div>
+            </div>
+          }
+        </div>
+      }
+    </section>
+
+    <!-- Botón volver -->
+    <div class="perfil-footer">
+      <button class="btn-ir-cursos" (click)="irACursos()">
+        Ir a selección de cursos
+      </button>
+    </div>
+
+  }
+
+</div>

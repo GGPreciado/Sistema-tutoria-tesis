@@ -19,19 +19,28 @@ import { ExportModule } from './modules/export/export.module';
     // Conexión a PostgreSQL vía variables de entorno
     TypeOrmModule.forRootAsync({
       inject: [ConfigService],
-      useFactory: (config: ConfigService) => ({
-        type: 'postgres',
-        host: config.get<string>('DB_HOST', 'localhost'),
-        port: config.get<number>('DB_PORT', 5432),
-        username: config.get<string>('DB_USER', 'postgres'),
-        password: config.get<string>('DB_PASSWORD', 'postgres'),
-        database: config.get<string>('DB_NAME', 'tutoria'),
-        // Las entidades se registran en cada módulo con TypeOrmModule.forFeature()
-        autoLoadEntities: true,
-        // synchronize: false — siempre usar migrations explícitas
-        synchronize: false,
-        migrations: [__dirname + '/database/migrations/*{.ts,.js}'],
-      }),
+      useFactory: (config: ConfigService) => {
+        // En Railway, DATABASE_URL viene del plugin de PostgreSQL
+        const databaseUrl = config.get<string>('DATABASE_URL');
+        const baseConfig = {
+          type: 'postgres' as const,
+          autoLoadEntities: true,
+          synchronize: false,
+          migrations: [__dirname + '/database/migrations/*{.ts,.js}'],
+        };
+        if (databaseUrl) {
+          return { ...baseConfig, url: databaseUrl, ssl: { rejectUnauthorized: false } };
+        }
+        return {
+          ...baseConfig,
+          host: config.get<string>('DB_HOST', 'localhost'),
+          port: config.get<number>('DB_PORT', 5432),
+          username: config.get<string>('DB_USER', 'postgres'),
+          password: config.get<string>('DB_PASSWORD', 'postgres'),
+          database: config.get<string>('DB_NAME', 'tutoria'),
+          ssl: false,
+        };
+      },
     }),
 
     // Módulos de features — se agregan aquí a medida que se implementan

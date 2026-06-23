@@ -1,0 +1,1024 @@
+{
+  "_meta": {
+    "descripcion": "Preguntas de Historia del Perú — Tema: El Tahuantinsuyo. 100 preguntas de opción múltiple, 20 por nivel de dificultad. Alineadas con el Currículo Nacional de Educación Básica (MINEDU) para 5to grado de primaria.",
+    "curso": "Historia del Perú",
+    "tema": "El Tahuantinsuyo",
+    "grado": 5,
+    "distribucion": { "muy_facil": 20, "facil": 20, "normal": 20, "dificil": 20, "muy_dificil": 20 }
+  },
+
+  "cursos": [
+    { "id_local": "hist", "nombre": "Historia del Perú" }
+  ],
+
+  "temas": [
+    { "id_local": "tahuantinsuyo", "curso_local": "hist", "nombre": "El Tahuantinsuyo", "grado": 5 }
+  ],
+
+  "preguntas": [
+    {
+      "id_local": "tah_mf_01", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Cómo se llamaba el gran Estado que formaron los incas en América del Sur?",
+      "opciones": [
+        { "texto": "Tahuantinsuyo", "es_correcta": true },
+        { "texto": "Aztlán", "es_correcta": false },
+        { "texto": "Tiwanaku", "es_correcta": false },
+        { "texto": "Chavín", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_mf_02", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Cuál era la capital del Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "Cusco", "es_correcta": true },
+        { "texto": "Lima", "es_correcta": false },
+        { "texto": "Trujillo", "es_correcta": false },
+        { "texto": "Cajamarca", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_mf_03", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Cuántas regiones o suyos tenía el Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "Cuatro", "es_correcta": true },
+        { "texto": "Dos", "es_correcta": false },
+        { "texto": "Tres", "es_correcta": false },
+        { "texto": "Cinco", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_mf_04", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Cómo se llamaba el dios principal de los incas, el dios del Sol?",
+      "opciones": [
+        { "texto": "Inti", "es_correcta": true },
+        { "texto": "Supay", "es_correcta": false },
+        { "texto": "Kon", "es_correcta": false },
+        { "texto": "Pachacámac", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_mf_05", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Qué nombre recibía el gobernante máximo del Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "El Sapa Inca", "es_correcta": true },
+        { "texto": "El Amauta", "es_correcta": false },
+        { "texto": "El Curaca", "es_correcta": false },
+        { "texto": "El Chasqui", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_mf_06", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿En qué país actual se encontraba la capital del Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "Perú", "es_correcta": true },
+        { "texto": "Bolivia", "es_correcta": false },
+        { "texto": "Ecuador", "es_correcta": false },
+        { "texto": "Chile", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_mf_07", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Cómo se llamaban los mensajeros del Inca que corrían para llevar mensajes por todo el territorio?",
+      "opciones": [
+        { "texto": "Chasquis", "es_correcta": true },
+        { "texto": "Amautas", "es_correcta": false },
+        { "texto": "Curacas", "es_correcta": false },
+        { "texto": "Yanas", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_mf_08", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Cuál era el animal más importante para los incas, usado para el transporte y la obtención de lana?",
+      "opciones": [
+        { "texto": "La llama", "es_correcta": true },
+        { "texto": "El jaguar", "es_correcta": false },
+        { "texto": "El cóndor", "es_correcta": false },
+        { "texto": "El mono", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_mf_09", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Cuál es la ciudadela inca más famosa del mundo, ubicada en lo alto de una montaña?",
+      "opciones": [
+        { "texto": "Machu Picchu", "es_correcta": true },
+        { "texto": "Sacsayhuamán", "es_correcta": false },
+        { "texto": "Chan Chan", "es_correcta": false },
+        { "texto": "Ollantaytambo", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_mf_10", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Cuál era el idioma principal que se hablaba en el Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "Quechua", "es_correcta": true },
+        { "texto": "Aymara", "es_correcta": false },
+        { "texto": "Español", "es_correcta": false },
+        { "texto": "Puquina", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_mf_11", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Qué nombre tenía la esposa principal del Sapa Inca?",
+      "opciones": [
+        { "texto": "La Coya", "es_correcta": true },
+        { "texto": "La Aclla", "es_correcta": false },
+        { "texto": "La Mama", "es_correcta": false },
+        { "texto": "La Huaca", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_mf_12", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Quién fue el primer Inca según la tradición oral de los incas?",
+      "opciones": [
+        { "texto": "Manco Cápac", "es_correcta": true },
+        { "texto": "Pachacútec", "es_correcta": false },
+        { "texto": "Túpac Inca Yupanqui", "es_correcta": false },
+        { "texto": "Huayna Cápac", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_mf_13", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Cuál fue el último Inca que reinó antes de la llegada de los conquistadores españoles?",
+      "opciones": [
+        { "texto": "Atahualpa", "es_correcta": true },
+        { "texto": "Huáscar", "es_correcta": false },
+        { "texto": "Huayna Cápac", "es_correcta": false },
+        { "texto": "Manco Inca", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_mf_14", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Qué planta, originaria de los Andes, era el alimento más importante en la dieta de los incas?",
+      "opciones": [
+        { "texto": "La papa", "es_correcta": true },
+        { "texto": "El trigo", "es_correcta": false },
+        { "texto": "El arroz", "es_correcta": false },
+        { "texto": "La cebada", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_mf_15", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Cuál era la gran fiesta que los incas celebraban cada año en honor al dios Sol?",
+      "opciones": [
+        { "texto": "Inti Raymi", "es_correcta": true },
+        { "texto": "Kapaq Raymi", "es_correcta": false },
+        { "texto": "Situa", "es_correcta": false },
+        { "texto": "Huarachicoy", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_mf_16", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Qué metal era el más sagrado para los incas, llamado el 'sudor del Sol'?",
+      "opciones": [
+        { "texto": "El oro", "es_correcta": true },
+        { "texto": "La plata", "es_correcta": false },
+        { "texto": "El bronce", "es_correcta": false },
+        { "texto": "El cobre", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_mf_17", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Cómo se llamaba el gran templo del Sol, el más importante de todo el Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "Coricancha", "es_correcta": true },
+        { "texto": "Sacsayhuamán", "es_correcta": false },
+        { "texto": "Ollantaytambo", "es_correcta": false },
+        { "texto": "Pachacámac", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_mf_18", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Qué nombre recibía la comunidad familiar que era la base de la sociedad inca?",
+      "opciones": [
+        { "texto": "Ayllu", "es_correcta": true },
+        { "texto": "Suyo", "es_correcta": false },
+        { "texto": "Mita", "es_correcta": false },
+        { "texto": "Quipu", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_mf_19", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Qué suyo o región del Tahuantinsuyo se encontraba al norte de la capital Cusco?",
+      "opciones": [
+        { "texto": "Chinchaysuyo", "es_correcta": true },
+        { "texto": "Antisuyo", "es_correcta": false },
+        { "texto": "Qollasuyo", "es_correcta": false },
+        { "texto": "Kuntisuyo", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_mf_20", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿De qué material estaban hechas las cuerdas con nudos que los incas usaban para registrar información?",
+      "opciones": [
+        { "texto": "Fibra de lana de camélidos o algodón", "es_correcta": true },
+        { "texto": "Madera tallada muy delgada", "es_correcta": false },
+        { "texto": "Hojas secas de plantas", "es_correcta": false },
+        { "texto": "Barro cocido en forma de cordel", "es_correcta": false }
+      ]
+    },
+
+    {
+      "id_local": "tah_f_01", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Qué significa la palabra 'Tahuantinsuyo'?",
+      "opciones": [
+        { "texto": "Las cuatro regiones del mundo", "es_correcta": true },
+        { "texto": "El gran río del Sur", "es_correcta": false },
+        { "texto": "La montaña sagrada", "es_correcta": false },
+        { "texto": "El camino del Inca", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_f_02", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Cuáles son los cuatro suyos que formaban el Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "Chinchaysuyo, Antisuyo, Qollasuyo y Kuntisuyo", "es_correcta": true },
+        { "texto": "Norte, Sur, Este y Oeste", "es_correcta": false },
+        { "texto": "Cusco, Lima, Arequipa y Trujillo", "es_correcta": false },
+        { "texto": "Inca, Coya, Amauta y Chasqui", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_f_03", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Qué eran los quipus y para qué se usaban?",
+      "opciones": [
+        { "texto": "Cuerdas con nudos para registrar información numérica", "es_correcta": true },
+        { "texto": "Instrumentos musicales usados en las fiestas religiosas", "es_correcta": false },
+        { "texto": "Herramientas de metal para la agricultura", "es_correcta": false },
+        { "texto": "Tipos de tejidos para adornar los templos", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_f_04", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Qué era la mita en el Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "Un trabajo obligatorio que los ciudadanos hacían para el Estado", "es_correcta": true },
+        { "texto": "Un tipo de fiesta religiosa en honor al Sol", "es_correcta": false },
+        { "texto": "El nombre de la moneda usada por los incas", "es_correcta": false },
+        { "texto": "Una técnica para construir caminos de piedra", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_f_05", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Qué eran los andenes que construyeron los incas?",
+      "opciones": [
+        { "texto": "Terrazas de cultivo construidas en las laderas de los cerros", "es_correcta": true },
+        { "texto": "Puentes colgantes que cruzaban los ríos", "es_correcta": false },
+        { "texto": "Almacenes de alimentos en las montañas", "es_correcta": false },
+        { "texto": "Caminos sagrados hacia los templos", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_f_06", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Cuál fue el Inca que más amplió el territorio del Tahuantinsuyo, convirtiéndolo en un gran imperio?",
+      "opciones": [
+        { "texto": "Pachacútec", "es_correcta": true },
+        { "texto": "Manco Cápac", "es_correcta": false },
+        { "texto": "Huayna Cápac", "es_correcta": false },
+        { "texto": "Atahualpa", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_f_07", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Qué era el Qhapaq Ñan?",
+      "opciones": [
+        { "texto": "La gran red de caminos que unía todo el Tahuantinsuyo", "es_correcta": true },
+        { "texto": "El nombre del palacio principal del Inca en el Cusco", "es_correcta": false },
+        { "texto": "Una importante ceremonia religiosa del año inca", "es_correcta": false },
+        { "texto": "El título del sacerdote más importante del Coricancha", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_f_08", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Para qué servían las colcas o qollqas en el Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "Para almacenar alimentos, ropa y herramientas del Estado", "es_correcta": true },
+        { "texto": "Para realizar ceremonias y rituales religiosos", "es_correcta": false },
+        { "texto": "Para guardar las armas del ejército inca", "es_correcta": false },
+        { "texto": "Para alojar a los chasquis durante sus viajes", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_f_09", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Qué era el 'ayni' en la cultura inca?",
+      "opciones": [
+        { "texto": "El sistema de ayuda mutua entre los miembros de un ayllu", "es_correcta": true },
+        { "texto": "El tributo anual pagado al Sapa Inca", "es_correcta": false },
+        { "texto": "El ritual de iniciación de los jóvenes guerreros", "es_correcta": false },
+        { "texto": "El nombre del calendario agrícola inca", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_f_10", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Qué era la Pachamama para los incas?",
+      "opciones": [
+        { "texto": "La diosa de la Tierra, venerada por dar alimentos y vida", "es_correcta": true },
+        { "texto": "La diosa del Mar y de las tormentas", "es_correcta": false },
+        { "texto": "La diosa de la Luna y de la noche", "es_correcta": false },
+        { "texto": "La diosa del Fuego y del volcán", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_f_11", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Quiénes eran los amautas en el Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "Los sabios y maestros encargados de enseñar y conservar el conocimiento", "es_correcta": true },
+        { "texto": "Los guerreros de élite del ejército del Inca", "es_correcta": false },
+        { "texto": "Los sacerdotes encargados del Coricancha", "es_correcta": false },
+        { "texto": "Los constructores de caminos del Qhapaq Ñan", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_f_12", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Qué metal llamaban los incas 'las lágrimas de la Luna'?",
+      "opciones": [
+        { "texto": "La plata", "es_correcta": true },
+        { "texto": "El oro", "es_correcta": false },
+        { "texto": "El bronce", "es_correcta": false },
+        { "texto": "El cobre", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_f_13", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Cómo se llamaba el jefe local que administraba los ayllus y servía de intermediario con el Estado inca?",
+      "opciones": [
+        { "texto": "El curaca", "es_correcta": true },
+        { "texto": "El chasqui", "es_correcta": false },
+        { "texto": "El amauta", "es_correcta": false },
+        { "texto": "El yanacona", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_f_14", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿En qué año llegaron los conquistadores españoles al Tahuantinsuyo y capturaron al Inca Atahualpa?",
+      "opciones": [
+        { "texto": "1532", "es_correcta": true },
+        { "texto": "1492", "es_correcta": false },
+        { "texto": "1521", "es_correcta": false },
+        { "texto": "1550", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_f_15", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Quién fue el conquistador español que lideró la expedición que derrotó al Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "Francisco Pizarro", "es_correcta": true },
+        { "texto": "Hernán Cortés", "es_correcta": false },
+        { "texto": "Diego de Almagro", "es_correcta": false },
+        { "texto": "Sebastián de Belalcázar", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_f_16", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Qué técnica constructiva caracterizaba las edificaciones incas, sin usar cemento ni argamasa?",
+      "opciones": [
+        { "texto": "Piedras perfectamente talladas y encajadas entre sí", "es_correcta": true },
+        { "texto": "Ladrillos de adobe secados al sol", "es_correcta": false },
+        { "texto": "Troncos de madera apilados y amarrados", "es_correcta": false },
+        { "texto": "Barro cocido en hornos de leña", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_f_17", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Qué nombre recibía la clase noble del Tahuantinsuyo, conocida por usar grandes orejeras de oro?",
+      "opciones": [
+        { "texto": "Los orejones o inca de sangre", "es_correcta": true },
+        { "texto": "Los hatun runas", "es_correcta": false },
+        { "texto": "Los yanas", "es_correcta": false },
+        { "texto": "Los mitmaqkuna", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_f_18", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Qué representaba el cóndor en la cosmovisión inca?",
+      "opciones": [
+        { "texto": "El mensajero entre los dioses y los hombres, habitante del mundo de arriba", "es_correcta": true },
+        { "texto": "El dios de la guerra y la conquista", "es_correcta": false },
+        { "texto": "El guardián de las cosechas y los campos", "es_correcta": false },
+        { "texto": "El símbolo del fuego sagrado del Coricancha", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_f_19", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Qué eran las acllas o mamacuna en el Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "Mujeres escogidas para servir al Inca o al dios Sol, tejer y preparar chicha", "es_correcta": true },
+        { "texto": "Guerreras especiales del ejército inca", "es_correcta": false },
+        { "texto": "Sacerdotisas de la Pachamama", "es_correcta": false },
+        { "texto": "Las hijas de los curacas destinadas al comercio", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_f_20", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Quién era Viracocha para los incas?",
+      "opciones": [
+        { "texto": "El dios creador del mundo y de los seres humanos", "es_correcta": true },
+        { "texto": "El dios de la guerra y las batallas", "es_correcta": false },
+        { "texto": "El dios protector de las cosechas", "es_correcta": false },
+        { "texto": "El dios de los muertos y el inframundo", "es_correcta": false }
+      ]
+    },
+
+    {
+      "id_local": "tah_n_01", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Qué extensión territorial llegó a abarcar el Tahuantinsuyo en su época de mayor poder?",
+      "opciones": [
+        { "texto": "Partes de Colombia, Ecuador, Perú, Bolivia, Chile y Argentina", "es_correcta": true },
+        { "texto": "Solo el territorio del actual Perú", "es_correcta": false },
+        { "texto": "Toda América del Sur sin excepción", "es_correcta": false },
+        { "texto": "Solo la región andina del Perú y Bolivia", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_n_02", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Cuál era la principal función de los quipus en la administración del Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "Registrar información numérica como censos, tributos y producción agrícola", "es_correcta": true },
+        { "texto": "Decorar los templos y palacios del Sapa Inca", "es_correcta": false },
+        { "texto": "Comunicarse con los dioses durante las ceremonias", "es_correcta": false },
+        { "texto": "Medir el tiempo y los ciclos de las estaciones del año", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_n_03", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Por qué los incas construyeron andenes en las laderas de las montañas?",
+      "opciones": [
+        { "texto": "Para ganar más tierra fértil de cultivo en terrenos muy inclinados", "es_correcta": true },
+        { "texto": "Para construir sus ciudades en lugares más elevados y seguros", "es_correcta": false },
+        { "texto": "Para proteger sus ciudades de los enemigos con murallas naturales", "es_correcta": false },
+        { "texto": "Para realizar ceremonias religiosas en lugares de mayor altura", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_n_04", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Qué diferencia existía entre el 'ayni' y la 'mita' como formas de trabajo en el Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "El ayni era ayuda mutua entre iguales del ayllu; la mita era trabajo obligatorio para el Estado", "es_correcta": true },
+        { "texto": "El ayni era para el Estado; la mita era ayuda entre vecinos del ayllu", "es_correcta": false },
+        { "texto": "Eran exactamente lo mismo con diferente nombre", "es_correcta": false },
+        { "texto": "El ayni era solo para los nobles; la mita era exclusiva de los sacerdotes", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_n_05", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Por qué Pachacútec es considerado el Inca más importante de toda la historia del Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "Porque transformó el pequeño Estado de Cusco en un gran imperio y mandó construir Machu Picchu", "es_correcta": true },
+        { "texto": "Porque fue el primero en gobernar como Sapa Inca", "es_correcta": false },
+        { "texto": "Porque derrotó militarmente a los conquistadores españoles", "es_correcta": false },
+        { "texto": "Porque inventó el sistema de quipus para administrar el Estado", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_n_06", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Cómo funcionaba el sistema de chasquis para comunicar mensajes a larga distancia?",
+      "opciones": [
+        { "texto": "Corrían en relevos por el Qhapaq Ñan, pasando el mensaje de un chasqui al siguiente", "es_correcta": true },
+        { "texto": "Usaban señales de humo desde las cumbres de las montañas", "es_correcta": false },
+        { "texto": "Enviaban palomas mensajeras amaestradas a distancia", "es_correcta": false },
+        { "texto": "Escribían cartas en quipus que llevaban a lomo de llama", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_n_07", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Cómo llamaban los incas a los tres mundos de su visión del universo?",
+      "opciones": [
+        { "texto": "Hanan Pacha (mundo de arriba), Kay Pacha (mundo presente) y Ukhu Pacha (mundo de abajo)", "es_correcta": true },
+        { "texto": "Cielo, tierra e infierno", "es_correcta": false },
+        { "texto": "Sol, Luna y Estrellas", "es_correcta": false },
+        { "texto": "Inca, Coya y Ayllu", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_n_08", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Cuál fue la causa principal de la guerra civil inca justo antes de la llegada de los españoles?",
+      "opciones": [
+        { "texto": "La disputa entre Huáscar y Atahualpa por el control del trono del Tahuantinsuyo", "es_correcta": true },
+        { "texto": "Una gran sequía que generó hambre y conflictos entre los suyos", "es_correcta": false },
+        { "texto": "La invasión de pueblos guerreros del norte", "es_correcta": false },
+        { "texto": "Una rebelión de los curacas contra el Sapa Inca", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_n_09", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Qué función cumplían los mitmaqkuna en la estrategia de expansión del Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "Eran grupos de familias trasladadas a nuevas regiones para poblarlas o controlar pueblos conquistados", "es_correcta": true },
+        { "texto": "Eran soldados de élite que protegían las fronteras del Tahuantinsuyo", "es_correcta": false },
+        { "texto": "Eran sacerdotes itinerantes que difundían el culto al Sol", "es_correcta": false },
+        { "texto": "Eran comerciantes que recorrían el Qhapaq Ñan con productos", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_n_10", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Cuáles eran las obligaciones del Estado inca hacia las personas que cumplían la mita?",
+      "opciones": [
+        { "texto": "Proporcionarles alimentos, ropa y herramientas mientras trabajaban para el Estado", "es_correcta": true },
+        { "texto": "Pagarles con oro y plata por su trabajo", "es_correcta": false },
+        { "texto": "Darles tierras y esclavos como recompensa", "es_correcta": false },
+        { "texto": "Enseñarles a leer y escribir en quechua", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_n_11", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Por qué el Sapa Inca era considerado hijo del Sol por su pueblo?",
+      "opciones": [
+        { "texto": "Porque los incas creían que Manco Cápac fue enviado por Inti para gobernar y civilizar a los hombres", "es_correcta": true },
+        { "texto": "Porque el Inca vivía dentro del templo del Sol", "es_correcta": false },
+        { "texto": "Porque el Inca era el único que podía mirar al Sol directamente", "es_correcta": false },
+        { "texto": "Porque nació durante un eclipse solar en el Coricancha", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_n_12", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Cuál es el mayor legado agrícola del Tahuantinsuyo al mundo entero?",
+      "opciones": [
+        { "texto": "La domesticación y cultivo de la papa, que luego se extendió a todo el mundo", "es_correcta": true },
+        { "texto": "La invención del arado de hierro para trabajar la tierra", "es_correcta": false },
+        { "texto": "El desarrollo del sistema de riego con canales de agua", "es_correcta": false },
+        { "texto": "La creación de semillas resistentes a las heladas", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_n_13", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Cómo los incas lograron unificar a tantos pueblos diferentes bajo un solo Estado?",
+      "opciones": [
+        { "texto": "Combinando conquistas militares, alianzas, traslado de pueblos y difusión del quechua", "es_correcta": true },
+        { "texto": "Usando únicamente la fuerza militar para someter a todos los pueblos", "es_correcta": false },
+        { "texto": "A través del comercio y el intercambio pacífico entre pueblos", "es_correcta": false },
+        { "texto": "Mediante el matrimonio entre nobles incas y nobles de todos los pueblos", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_n_14", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Cuál era la importancia del Qhapaq Ñan más allá de ser solo un camino de transporte?",
+      "opciones": [
+        { "texto": "Permitía mover el ejército, enviar mensajes por chasquis y distribuir productos a todo el territorio", "es_correcta": true },
+        { "texto": "Era solo un camino ceremonial para las grandes fiestas religiosas", "es_correcta": false },
+        { "texto": "Servía únicamente para que el Inca viajara a visitar su territorio", "es_correcta": false },
+        { "texto": "Era la ruta de comercio internacional con otras civilizaciones", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_n_15", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Cuántos Incas gobernaron el Tahuantinsuyo desde Manco Cápac hasta Atahualpa?",
+      "opciones": [
+        { "texto": "Trece", "es_correcta": true },
+        { "texto": "Diez", "es_correcta": false },
+        { "texto": "Quince", "es_correcta": false },
+        { "texto": "Ocho", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_n_16", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Qué representaba la serpiente (amaru) en la mitología inca?",
+      "opciones": [
+        { "texto": "El mundo subterráneo (Ukhu Pacha), la sabiduría y el agua subterránea", "es_correcta": true },
+        { "texto": "El dios de la guerra y la victoria en batalla", "es_correcta": false },
+        { "texto": "El guardián de la entrada del Coricancha", "es_correcta": false },
+        { "texto": "La fuerza del océano y las corrientes marinas", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_n_17", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Cuál fue la importancia religiosa del Coricancha para los incas?",
+      "opciones": [
+        { "texto": "Era el templo del Sol donde se guardaban figuras de oro y se realizaban ofrendas a los dioses", "es_correcta": true },
+        { "texto": "Era el palacio donde vivía y gobernaba el Sapa Inca", "es_correcta": false },
+        { "texto": "Era la academia donde los amautas enseñaban a los nobles", "es_correcta": false },
+        { "texto": "Era el lugar donde se guardaban todos los quipus oficiales del Estado", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_n_18", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Qué ofrecía el Estado inca a los pueblos que se unían voluntariamente al Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "Protección militar, acceso a las colcas del Estado y conservación de sus costumbres y curacas", "es_correcta": true },
+        { "texto": "Tierras de cultivo individuales y exención total del pago de tributos", "es_correcta": false },
+        { "texto": "Libertad total para gobernarse sin ninguna intervención del Inca", "es_correcta": false },
+        { "texto": "Monedas de oro y plata del tesoro del Cusco", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_n_19", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Por qué los incas adoraban al Sol (Inti) por encima de todos los demás dioses?",
+      "opciones": [
+        { "texto": "Porque lo consideraban su origen divino y porque el Sol era esencial para la agricultura andina", "es_correcta": true },
+        { "texto": "Porque el Sol era el dios más antiguo de toda América", "es_correcta": false },
+        { "texto": "Porque el Sol era el único dios que todos podían ver con sus propios ojos", "es_correcta": false },
+        { "texto": "Porque así lo ordenó el primer Inca al fundar la ciudad del Cusco", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_n_20", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Cómo se transmitía el saber y la historia en el Tahuantinsuyo sin escritura alfabética?",
+      "opciones": [
+        { "texto": "A través de la tradición oral, los quipus y los cantos ceremoniales de los amautas", "es_correcta": true },
+        { "texto": "Mediante jeroglíficos pintados en las paredes de los templos", "es_correcta": false },
+        { "texto": "Con pictogramas tallados en piedra en todos los caminos del Inca", "es_correcta": false },
+        { "texto": "Usando un alfabeto secreto conocido solo por el Sapa Inca", "es_correcta": false }
+      ]
+    },
+
+    {
+      "id_local": "tah_d_01", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿En qué batalla los españoles capturaron al Sapa Inca Atahualpa en 1532?",
+      "opciones": [
+        { "texto": "La Batalla de Cajamarca", "es_correcta": true },
+        { "texto": "La Batalla de Huamachuco", "es_correcta": false },
+        { "texto": "La Batalla de Sacsayhuamán", "es_correcta": false },
+        { "texto": "La Batalla de Villacuri", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_d_02", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Qué ofreció el Inca Atahualpa a Francisco Pizarro a cambio de su libertad?",
+      "opciones": [
+        { "texto": "Llenar una habitación entera de oro y dos salas de plata", "es_correcta": true },
+        { "texto": "Entregar todos los quipus secretos del Estado inca", "es_correcta": false },
+        { "texto": "Guiarlo personalmente hasta las minas más ricas del Tahuantinsuyo", "es_correcta": false },
+        { "texto": "Rendirse junto con todos sus generales y el ejército inca", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_d_03", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Cuál es el significado original de la palabra 'inca' en quechua?",
+      "opciones": [
+        { "texto": "Señor o noble", "es_correcta": true },
+        { "texto": "Hijo del Sol", "es_correcta": false },
+        { "texto": "Gran guerrero", "es_correcta": false },
+        { "texto": "Gobernante eterno", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_d_04", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Cómo funcionaba la redistribución de los productos almacenados en las colcas del Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "El Estado recibía trabajo (mita) y a cambio distribuía alimentos, ropa y herramientas al pueblo", "es_correcta": true },
+        { "texto": "Los productos se vendían en mercados usando monedas de oro", "es_correcta": false },
+        { "texto": "Cada ayllu hacía trueque libremente con los ayllus vecinos", "es_correcta": false },
+        { "texto": "Solo los curacas podían acceder a los productos de las colcas", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_d_05", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Por qué Sacsayhuamán es considerada una obra de ingeniería extraordinaria?",
+      "opciones": [
+        { "texto": "Sus muros están formados por bloques de piedra de hasta 100 toneladas perfectamente encajados", "es_correcta": true },
+        { "texto": "Porque fue construida en solo un año por miles de trabajadores", "es_correcta": false },
+        { "texto": "Porque resistió decenas de terremotos sin sufrir ningún daño", "es_correcta": false },
+        { "texto": "Porque fue construida completamente sin herramientas de ningún tipo", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_d_06", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Cómo se distribuía la tierra agrícola en el Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "Se dividía en tres partes: una para el Sol, una para el Estado (Inca) y una para el pueblo", "es_correcta": true },
+        { "texto": "Toda la tierra pertenecía al Inca, que la distribuía a su criterio personal", "es_correcta": false },
+        { "texto": "Cada familia tenía su propia tierra de forma privada e intransferible", "es_correcta": false },
+        { "texto": "Solo los curacas y los nobles podían ser propietarios de tierras", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_d_07", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Qué tipo de organización política tenía el Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "Una monarquía teocrática con el Sapa Inca como máxima autoridad divina y política", "es_correcta": true },
+        { "texto": "Una república con representantes elegidos por cada ayllu", "es_correcta": false },
+        { "texto": "Una federación de pueblos con derechos iguales para todos", "es_correcta": false },
+        { "texto": "Una oligarquía gobernada por el consejo de sacerdotes del Sol", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_d_08", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Por qué los incas llamaban al Cusco el 'ombligo del mundo'?",
+      "opciones": [
+        { "texto": "Porque era el centro político, religioso y administrativo del que partían todos los caminos del Inca", "es_correcta": true },
+        { "texto": "Porque era la ciudad más antigua de toda América del Sur", "es_correcta": false },
+        { "texto": "Porque estaba ubicada exactamente en el centro geográfico de Sudamérica", "es_correcta": false },
+        { "texto": "Porque era el lugar donde los dioses incas habían creado el mundo", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_d_09", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Cuál era el cargo del Willaq Umu en el Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "El sumo sacerdote del Sol, segunda autoridad después del Sapa Inca", "es_correcta": true },
+        { "texto": "El general jefe del ejército inca en las campañas militares", "es_correcta": false },
+        { "texto": "El administrador principal de las colcas del Estado", "es_correcta": false },
+        { "texto": "El jefe de todos los quipucamayoc del Tahuantinsuyo", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_d_10", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Cuál era la diferencia entre 'inca de sangre' e 'inca de privilegio'?",
+      "opciones": [
+        { "texto": "El inca de sangre era descendiente real del Sapa Inca; el de privilegio recibía el título por sus méritos", "es_correcta": true },
+        { "texto": "No había diferencia real entre los dos tipos, era solo un nombre diferente", "es_correcta": false },
+        { "texto": "El inca de sangre era más joven; el inca de privilegio era de mayor edad", "es_correcta": false },
+        { "texto": "El inca de sangre gobernaba el norte; el de privilegio gobernaba el sur", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_d_11", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Por qué los incas momificaban a sus gobernantes muertos?",
+      "opciones": [
+        { "texto": "Creían que el Inca seguía presente y podía ser consultado; su cuerpo era tratado como si estuviera vivo", "es_correcta": true },
+        { "texto": "Para exhibirlos como ejemplo de vida virtuosa a las generaciones futuras", "es_correcta": false },
+        { "texto": "Como una ofrenda especial para el dios Sol en el Coricancha", "es_correcta": false },
+        { "texto": "Para demostrar el poder del Tahuantinsuyo ante los pueblos conquistados", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_d_12", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Cuál fue la consecuencia más grave de la guerra civil entre Huáscar y Atahualpa para el Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "Debilitó enormemente al Estado inca y facilitó la conquista española", "es_correcta": true },
+        { "texto": "Provocó la división definitiva y permanente del Tahuantinsuyo en dos reinos", "es_correcta": false },
+        { "texto": "Destruyó completamente la ciudad sagrada del Cusco", "es_correcta": false },
+        { "texto": "Eliminó para siempre la institución de los curacas en todo el territorio", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_d_13", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Qué eran los 'capacocha' en la religión inca?",
+      "opciones": [
+        { "texto": "Sacrificios especiales, generalmente de niños, ofrecidos en ceremonias importantes a los dioses", "es_correcta": true },
+        { "texto": "Los sacerdotes de mayor rango del templo Coricancha", "es_correcta": false },
+        { "texto": "Las fiestas de renovación celebradas al inicio de cada año inca", "es_correcta": false },
+        { "texto": "Las ofrendas de objetos de oro depositadas en el templo del Sol", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_d_14", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Qué fue el Inti Raymi y cuándo se celebraba en el calendario inca?",
+      "opciones": [
+        { "texto": "La fiesta del Sol celebrada en el solsticio de invierno (junio) para asegurar la continuidad del Sol", "es_correcta": true },
+        { "texto": "La ceremonia de coronación del nuevo Sapa Inca al inicio de su gobierno", "es_correcta": false },
+        { "texto": "La fiesta de la Luna celebrada en el mes de diciembre", "es_correcta": false },
+        { "texto": "El ritual anual que marcaba el inicio de la campaña militar del Inca", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_d_15", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Qué productos agrícolas andinos, además de la papa, fueron aportes del Tahuantinsuyo a la alimentación mundial?",
+      "opciones": [
+        { "texto": "La quinua, el maíz y el tomate, que hoy se consumen en todo el mundo", "es_correcta": true },
+        { "texto": "El trigo, el arroz y la cebada, que los incas cultivaron antes que nadie", "es_correcta": false },
+        { "texto": "Solo la papa y el maíz tuvieron importancia a nivel mundial", "es_correcta": false },
+        { "texto": "El café, el cacao y la vainilla fueron los principales aportes incas", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_d_16", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Cuál era el rol específico de las acllas en la economía del Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "Producir tejidos finos de alta calidad y chicha sagrada para el Estado y las ceremonias", "es_correcta": true },
+        { "texto": "Administrar y controlar los productos de las colcas estatales", "es_correcta": false },
+        { "texto": "Enseñar el quechua a los niños de los pueblos conquistados", "es_correcta": false },
+        { "texto": "Llevar los mensajes del Inca en rutas que los hombres no podían recorrer", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_d_17", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Qué papel cumplían los quipucamayoc en la administración del Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "Eran los especialistas que podían leer e interpretar los quipus para el Estado", "es_correcta": true },
+        { "texto": "Eran los constructores encargados de crear los quipus con fibras especiales", "es_correcta": false },
+        { "texto": "Eran los sacerdotes que usaban los quipus en las ceremonias religiosas", "es_correcta": false },
+        { "texto": "Eran los guerreros que protegían los archivos de quipus del Estado", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_d_18", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Qué tres animales sagrados representaban los tres mundos de la cosmovisión inca?",
+      "opciones": [
+        { "texto": "El cóndor (Hanan Pacha), el puma (Kay Pacha) y la serpiente (Ukhu Pacha)", "es_correcta": true },
+        { "texto": "El águila, el jaguar y el cocodrilo", "es_correcta": false },
+        { "texto": "El cóndor, la llama y el mono", "es_correcta": false },
+        { "texto": "El puma, el oso y el cóndor", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_d_19", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Cuál era la función del 'Acllahuasi' en las ciudades del Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "Era la 'casa de las escogidas', donde las acllas vivían, trabajaban y producían para el Estado", "es_correcta": true },
+        { "texto": "Era la academia donde estudiaban los futuros curacas de cada región", "es_correcta": false },
+        { "texto": "Era el templo secundario dedicado a la diosa Luna (Mama Quilla)", "es_correcta": false },
+        { "texto": "Era el cuartel donde se entrenaba el ejército de élite del Inca", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_d_20", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Cuál era la diferencia entre el trabajo comunitario 'minka' y la 'mita' estatal en el Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "La minka era trabajo local para obras del ayllu (canales, caminos); la mita era trabajo obligatorio para el Estado inca", "es_correcta": true },
+        { "texto": "Eran exactamente lo mismo, se usaban indistintamente en todo el territorio", "es_correcta": false },
+        { "texto": "La minka era trabajo de hombres y la mita era trabajo exclusivo de mujeres", "es_correcta": false },
+        { "texto": "La minka era pagada en productos y la mita era completamente voluntaria", "es_correcta": false }
+      ]
+    },
+
+    {
+      "id_local": "tah_md_01", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "Según la división territorial, ¿qué suyo del Tahuantinsuyo ocupaba la mayor extensión geográfica?",
+      "opciones": [
+        { "texto": "El Qollasuyo, que se extendía desde el Cusco hasta el norte de Argentina y Chile", "es_correcta": true },
+        { "texto": "El Chinchaysuyo, por incluir los ricos reinos del norte como el de los chimúes", "es_correcta": false },
+        { "texto": "El Antisuyo, por abarcar toda la vasta selva amazónica", "es_correcta": false },
+        { "texto": "El Kuntisuyo, por extenderse a lo largo de toda la costa pacífica", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_md_02", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Cuál fue la estrategia religiosa de Pachacútec al expandir el Tahuantinsuyo respecto a los dioses locales?",
+      "opciones": [
+        { "texto": "Colocar al Inti por encima de todos los dioses, pero permitiendo que cada pueblo mantuviera sus cultos locales", "es_correcta": true },
+        { "texto": "Eliminar completamente todas las religiones de los pueblos conquistados", "es_correcta": false },
+        { "texto": "Hacer de Viracocha el único dios permitido en todo el Tahuantinsuyo", "es_correcta": false },
+        { "texto": "Prohibir todos los rituales y ceremonias en los territorios conquistados", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_md_03", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Cuáles fueron las razones principales que explican la rápida caída del Tahuantinsuyo ante 168 soldados españoles?",
+      "opciones": [
+        { "texto": "La guerra civil inca, las epidemias de enfermedades europeas y la superioridad tecnológica española", "es_correcta": true },
+        { "texto": "La falta de valor del ejército inca al ver por primera vez a los caballos españoles", "es_correcta": false },
+        { "texto": "La traición masiva de todos los curacas que apoyaron a los españoles desde el inicio", "es_correcta": false },
+        { "texto": "Una gran sequía de varios años que había dejado al ejército inca sin alimentos", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_md_04", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Qué fue el sistema de 'ceques' en la organización sagrada de la ciudad del Cusco?",
+      "opciones": [
+        { "texto": "Líneas imaginarias que partían del Coricancha y organizaban el espacio sagrado del Cusco, distribuyendo huacas y ceremonias", "es_correcta": true },
+        { "texto": "El consejo de nobles que asesoraba al Sapa Inca en sus decisiones de gobierno", "es_correcta": false },
+        { "texto": "El camino principal que cruzaba el Cusco de norte a sur conectando los templos", "es_correcta": false },
+        { "texto": "El título honorífico que recibía el gobernador civil de la ciudad del Cusco", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_md_05", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Cuál fue el proceso que originó la guerra civil entre Huáscar y Atahualpa?",
+      "opciones": [
+        { "texto": "Huayna Cápac no designó claramente un sucesor único, dejando el poder dividido entre sus hijos", "es_correcta": true },
+        { "texto": "Huáscar asesinó a Huayna Cápac para tomar el poder antes de tiempo", "es_correcta": false },
+        { "texto": "Atahualpa fue apoyado por los españoles antes de su llegada oficial al Tahuantinsuyo", "es_correcta": false },
+        { "texto": "El consejo de sacerdotes eligió a dos Incas al mismo tiempo por error", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_md_06", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Cómo la geografía andina de 'pisos ecológicos' contribuyó al desarrollo y la prosperidad del Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "Permitió controlar tierras de distintos climas (costa, sierra, selva) para obtener una amplia variedad de productos", "es_correcta": true },
+        { "texto": "La geografía fue principalmente un obstáculo que los incas nunca lograron superar completamente", "es_correcta": false },
+        { "texto": "Solo la sierra alta fue aprovechada; los incas nunca llegaron a controlar la costa o la selva", "es_correcta": false },
+        { "texto": "La geografía plana del altiplano fue la única base del desarrollo económico inca", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_md_07", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Cuál era la función político-religiosa de las 'panacas' en la estructura del poder inca?",
+      "opciones": [
+        { "texto": "Eran los grupos familiares de cada Inca fallecido que administraban sus tierras y cuidaban su momia, creando poderosas facciones", "es_correcta": true },
+        { "texto": "Eran grupos de sacerdotes especializados en los rituales del dios Sol en el Coricancha", "es_correcta": false },
+        { "texto": "Eran los batallones de élite del ejército inca designados para proteger al Sapa Inca", "es_correcta": false },
+        { "texto": "Eran los centros administrativos instalados en la capital de cada suyo", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_md_08", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Cómo se relaciona el sistema decimal con la organización de los quipus y la administración del Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "Los quipus usaban un sistema posicional de base 10 para registrar grandes cantidades en censos y tributos", "es_correcta": true },
+        { "texto": "Los quipus funcionaban con un sistema binario similar al de los computadores modernos", "es_correcta": false },
+        { "texto": "El sistema decimal fue una innovación introducida por los españoles tras la conquista", "es_correcta": false },
+        { "texto": "Los quipus no tenían ningún sistema numérico, solo usaban colores con valor simbólico", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_md_09", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Cuál fue la relación histórica entre el Tahuantinsuyo y la cultura Tiwanaku del lago Titicaca?",
+      "opciones": [
+        { "texto": "Los incas heredaron elementos culturales de Tiwanaku, incluyendo técnicas agrícolas y artísticas que incorporaron a su civilización", "es_correcta": true },
+        { "texto": "Tiwanaku fue fundada por los incas como su primera capital antes de mudarse al Cusco", "es_correcta": false },
+        { "texto": "No existe ninguna relación arqueológica o cultural entre ambas civilizaciones", "es_correcta": false },
+        { "texto": "Tiwanaku fue completamente destruida por los incas durante su expansión hacia el sur", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_md_10", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Qué evidencia arqueológica permite afirmar que Machu Picchu fue construida durante el reinado de Pachacútec (siglo XV)?",
+      "opciones": [
+        { "texto": "Dataciones de carbono 14 en los restos humanos hallados, que ubican el sitio en mediados del siglo XV", "es_correcta": true },
+        { "texto": "Una inscripción en quechua encontrada en las paredes del templo principal", "es_correcta": false },
+        { "texto": "Los quipus hallados dentro del sitio que mencionan el nombre de Pachacútec", "es_correcta": false },
+        { "texto": "Las crónicas escritas por los propios incas sobre la construcción del sitio", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_md_11", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Cuál fue el impacto de las epidemias europeas en el Tahuantinsuyo ANTES de la llegada de Pizarro en 1532?",
+      "opciones": [
+        { "texto": "La viruela mató al Inca Huayna Cápac y a gran parte de la nobleza inca, desestabilizando el Estado", "es_correcta": true },
+        { "texto": "Las enfermedades europeas llegaron solo después de la conquista, no antes", "es_correcta": false },
+        { "texto": "Las enfermedades solo afectaron a los pueblos de la costa, no a los incas serranos", "es_correcta": false },
+        { "texto": "Los incas tenían rituales medicinales que los protegían de las enfermedades extranjeras", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_md_12", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Cuál fue el significado histórico de la ejecución del Inca Atahualpa en 1533 para el futuro del Perú?",
+      "opciones": [
+        { "texto": "Marcó el fin del Estado inca independiente, aunque la resistencia continuó en Vilcabamba hasta 1572", "es_correcta": true },
+        { "texto": "Significó el fin total e inmediato de toda la civilización inca sin ninguna resistencia posterior", "es_correcta": false },
+        { "texto": "No tuvo mayor impacto porque el Tahuantinsuyo ya había sido completamente destruido antes", "es_correcta": false },
+        { "texto": "Provocó la rendición inmediata y pacífica de todas las tropas y pueblos del Tahuantinsuyo", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_md_13", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Cuál fue el destino final del Estado Inca de Vilcabamba, la resistencia inca tras la caída del Cusco?",
+      "opciones": [
+        { "texto": "Fue conquistado en 1572 cuando los españoles capturaron y ejecutaron al último Inca, Túpac Amaru I", "es_correcta": true },
+        { "texto": "Sobrevivió hasta el siglo XVIII cuando fue integrado pacíficamente al Virreinato del Perú", "es_correcta": false },
+        { "texto": "Nunca fue conquistado militarmente; firmó un tratado de paz con los españoles", "es_correcta": false },
+        { "texto": "Fue destruido en 1545 durante una gran batalla en la selva del Cusco", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_md_14", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Cuál era la importancia geopolítica del suyo Chinchaysuyo dentro del Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "Era la región más poblada y productiva, incluyendo los poderosos reinos de Chimú y Chincha", "es_correcta": true },
+        { "texto": "Era el suyo más pequeño pero contenía las minas de oro más ricas del Tahuantinsuyo", "es_correcta": false },
+        { "texto": "Era el suyo de mayor importancia religiosa por contener el oráculo de Pachacámac exclusivamente", "es_correcta": false },
+        { "texto": "Era el principal suyo militar por ser la frontera norte frente a los pueblos amazónicos", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_md_15", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Cómo el significado de los colores y la posición de los nudos en los quipus permitía codificar información compleja?",
+      "opciones": [
+        { "texto": "Cada color representaba una categoría (personas, tributos, ganado) y la posición del nudo indicaba el valor numérico", "es_correcta": true },
+        { "texto": "Los colores eran completamente decorativos y no tenían ningún significado informativo", "es_correcta": false },
+        { "texto": "Cada color representaba a uno de los cuatro suyos y los nudos indicaban los años de cada gobernante", "es_correcta": false },
+        { "texto": "Los colores indicaban el nivel de importancia del mensaje y los nudos el nombre del destinatario", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_md_16", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Cuál fue la política del Tahuantinsuyo respecto a los curacas de los pueblos que se sometían voluntariamente?",
+      "opciones": [
+        { "texto": "Se les permitía conservar su cargo y sus privilegios siempre que aceptaran la soberanía del Sapa Inca", "es_correcta": true },
+        { "texto": "Eran reemplazados inmediatamente por curacas incas de sangre provenientes del Cusco", "es_correcta": false },
+        { "texto": "Eran ejecutados públicamente como símbolo del poder del Tahuantinsuyo", "es_correcta": false },
+        { "texto": "Eran enviados al Cusco como rehenes para garantizar la lealtad de su pueblo", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_md_17", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Qué relación existe entre la 'cerámica Killke' y los orígenes históricos del Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "La cerámica Killke fue producida por los primeros incas en el Cusco desde el siglo XII, antes de la expansión imperial", "es_correcta": true },
+        { "texto": "Fue un estilo cerámico que los incas copiaron de los chimúes al conquistar la costa norte", "es_correcta": false },
+        { "texto": "La cerámica Killke fue producida en el Qollasuyo como tributo especial al Sapa Inca", "es_correcta": false },
+        { "texto": "No existe ninguna relación comprobada entre la cerámica Killke y la cultura inca", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_md_18", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Cómo el oráculo de Pachacámac, en la costa del Perú, se integró al sistema religioso del Tahuantinsuyo?",
+      "opciones": [
+        { "texto": "Los incas respetaron el oráculo por su gran prestigio y construyeron un templo al Sol junto a él", "es_correcta": true },
+        { "texto": "Los incas destruyeron el oráculo porque representaba una amenaza a la supremacía del dios Sol", "es_correcta": false },
+        { "texto": "El oráculo fue trasladado físicamente al Cusco para estar bajo control del Willaq Umu", "es_correcta": false },
+        { "texto": "Los incas prohibieron a los pueblos costeños visitar el oráculo para mantener el control religioso", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_md_19", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Por qué la conquista española del Tahuantinsuyo es considerada uno de los mayores choques culturales de la historia?",
+      "opciones": [
+        { "texto": "Porque en pocas décadas destruyó miles de años de desarrollo cultural, religioso y político andino", "es_correcta": true },
+        { "texto": "Porque los españoles reconocieron la superioridad inca y tuvieron que aprender el quechua para gobernar", "es_correcta": false },
+        { "texto": "Porque fue la primera vez que dos civilizaciones de igual tamaño se encontraban en el mundo", "es_correcta": false },
+        { "texto": "Porque los incas adoptaron voluntariamente la cultura española sin ninguna resistencia", "es_correcta": false }
+      ]
+    },
+    {
+      "id_local": "tah_md_20", "tema_local": "tahuantinsuyo", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Cuál fue el verdadero alcance del Qhapaq Ñan y por qué la UNESCO lo declaró Patrimonio de la Humanidad en 2014?",
+      "opciones": [
+        { "texto": "Por ser una red de más de 30,000 km que unía seis países andinos actuales, la mayor obra de ingeniería precolombina", "es_correcta": true },
+        { "texto": "Por ser el camino más antiguo de América, con más de 5,000 años de antigüedad comprobada", "es_correcta": false },
+        { "texto": "Por haber sido el único sistema de comunicación en América antes de la llegada de los europeos", "es_correcta": false },
+        { "texto": "Por contener pinturas rupestres incas que narran la historia completa del Tahuantinsuyo", "es_correcta": false }
+      ]
+    }
+  ]
+}

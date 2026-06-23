@@ -6,7 +6,9 @@
 
       <nav class="header-nav" aria-label="Navegación principal">
         @if (auth.usuarioActual()) {
-          <span class="header-usuario">{{ auth.usuarioActual()!.nombre }}</span>
+          <a class="header-usuario" routerLink="/profile" aria-label="Ver perfil">
+            {{ auth.usuarioActual()!.nombre }}
+          </a>
           <button class="btn-logout" (click)="cerrarSesion()">Cerrar sesión</button>
         }
       </nav>

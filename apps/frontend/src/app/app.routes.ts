@@ -41,6 +41,14 @@ export const routes: Routes = [
       ),
     canActivate: [authGuard],
   },
+  {
+    path: 'profile',
+    loadComponent: () =>
+      import('./features/profile/profile.component').then(
+        (m) => m.ProfileComponent,
+      ),
+    canActivate: [authGuard],
+  },
   // /home y raíz redirigen a courses; el authGuard en /courses hace el resto
   {
     path: 'home',

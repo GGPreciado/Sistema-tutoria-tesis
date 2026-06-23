@@ -17,8 +17,9 @@ async function bootstrap(): Promise<void> {
 
   app.useGlobalFilters(new HttpExceptionFilter());
 
-  // CORS para el frontend Angular en desarrollo
-  app.enableCors({ origin: 'http://localhost:4200' });
+  // CORS: en producción leer FRONTEND_URL desde variables de entorno
+  const origenPermitido = process.env.FRONTEND_URL ?? 'http://localhost:4200';
+  app.enableCors({ origin: origenPermitido });
 
   const puerto = process.env.PORT ?? '3000';
   await app.listen(puerto);

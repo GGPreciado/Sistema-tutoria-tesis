@@ -1,7 +1,6 @@
 # Sistema Web de Tutoría Personalizada con IA y Gamificación
 
-Tesis de Ingeniería de Sistemas. Sistema educativo para estudiantes de primaria
-del Perú con motor de reglas adaptativas (JSONRulesEngine) y gamificación.
+Sistema educativo web para estudiantes de primaria del Perú que combina un motor de reglas adaptativas (JSONRulesEngine) con gamificación. Desarrollado como herramienta de validación experimental para una tesis de Ingeniería de Sistemas, mediante un diseño pretest–postest con paired t-test aplicado a un salón de clases durante 3–4 semanas de intervención.
 
 ## Levantar desde cero
 
@@ -61,9 +60,25 @@ curl http://localhost:3000/health
 - Perfil del estudiante
 - Exportación CSV para análisis (`GET /admin/export`)
 
-## Funcionalidades diferidas (Fase 2)
+## Exportar datos del experimento
 
-Ver [docs/scope.md](docs/scope.md).
+```bash
+curl -H "X-User-Id: <uuid-de-cualquier-estudiante>" \
+     -H "X-Admin-Token: <valor-de-ADMIN_EXPORT_TOKEN-en-.env>" \
+     "http://localhost:3000/admin/export" \
+     -o evaluaciones.csv
+```
+
+El CSV incluye: usuario, evaluación, curso, tema, grado, nota, aciertos/errores, rachas, tiempo promedio, índice de desempeño, dificultad actual, acción adaptativa y puntos. Insumo directo para el análisis con paired t-test.
+
+## Funcionalidades diferidas — Fase 2
+
+Ver detalle completo en [docs/scope.md](docs/scope.md).
+
+- **Sprint 2:** Aulas virtuales, asignación de ejercicios por tutores, panel de monitoreo, chat interno y reuniones virtuales.
+- **Sprint 3:** Asistente virtual (chatbot con API de Claude), perfil personalizado con foto, interacción entre estudiantes.
+- **Sprint 4:** Registro público, autenticación JWT, recuperación de contraseña.
+- **Sprint 5:** Vinculación padre–estudiante, reportes por correo, panel de administración.
 
 ## Stack
 
