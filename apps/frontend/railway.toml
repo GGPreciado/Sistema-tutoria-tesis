@@ -1,5 +1,0 @@
-[build]
-buildCommand = 'npm install && sed -i "s|BACKEND_URL_PLACEHOLDER|$BACKEND_URL|g" src/environments/environment.prod.ts && ng build --configuration production'
-
-[deploy]
-startCommand = "npx serve dist/frontend/browser -l $PORT --single"
