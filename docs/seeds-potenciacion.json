@@ -1,0 +1,924 @@
+{
+  "_meta": {
+    "descripcion": "Preguntas de Matemática — Tema: Potenciación (Resolvemos problemas con potencias). 100 preguntas de opción múltiple, 20 por nivel de dificultad. Alineadas con el Currículo Nacional de Educación Básica (MINEDU) para 5to grado de primaria.",
+    "curso": "Matemática",
+    "tema": "Potenciación",
+    "grado": 5,
+    "distribucion": { "muy_facil": 20, "facil": 20, "normal": 20, "dificil": 20, "muy_dificil": 20 }
+  },
+
+  "cursos": [
+    { "id_local": "mat", "nombre": "Matemática" }
+  ],
+
+  "temas": [
+    { "id_local": "potenciacion", "curso_local": "mat", "nombre": "Potenciación", "grado": 5 }
+  ],
+
+  "preguntas": [
+    { "id_local": "pot_mf_01", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Cómo se llama el número que se repite como factor en una potencia?",
+      "opciones": [
+        { "texto": "La base", "es_correcta": true },
+        { "texto": "El exponente", "es_correcta": false },
+        { "texto": "El resultado", "es_correcta": false },
+        { "texto": "El producto", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_mf_02", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Cómo se llama el número pequeño que indica cuántas veces se repite la base?",
+      "opciones": [
+        { "texto": "El exponente", "es_correcta": true },
+        { "texto": "La base", "es_correcta": false },
+        { "texto": "El factor", "es_correcta": false },
+        { "texto": "El cociente", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_mf_03", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "En la potencia 3², ¿cuál es la base?",
+      "opciones": [
+        { "texto": "3", "es_correcta": true },
+        { "texto": "2", "es_correcta": false },
+        { "texto": "6", "es_correcta": false },
+        { "texto": "9", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_mf_04", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "En la potencia 5³, ¿cuál es el exponente?",
+      "opciones": [
+        { "texto": "3", "es_correcta": true },
+        { "texto": "5", "es_correcta": false },
+        { "texto": "8", "es_correcta": false },
+        { "texto": "15", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_mf_05", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Cuánto es 2²?",
+      "opciones": [
+        { "texto": "4", "es_correcta": true },
+        { "texto": "2", "es_correcta": false },
+        { "texto": "6", "es_correcta": false },
+        { "texto": "8", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_mf_06", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Cuánto es 3²?",
+      "opciones": [
+        { "texto": "9", "es_correcta": true },
+        { "texto": "6", "es_correcta": false },
+        { "texto": "5", "es_correcta": false },
+        { "texto": "3", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_mf_07", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Cuánto es 4²?",
+      "opciones": [
+        { "texto": "16", "es_correcta": true },
+        { "texto": "8", "es_correcta": false },
+        { "texto": "12", "es_correcta": false },
+        { "texto": "6", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_mf_08", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Cuánto es 2³?",
+      "opciones": [
+        { "texto": "8", "es_correcta": true },
+        { "texto": "6", "es_correcta": false },
+        { "texto": "5", "es_correcta": false },
+        { "texto": "9", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_mf_09", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Cuánto es 5²?",
+      "opciones": [
+        { "texto": "25", "es_correcta": true },
+        { "texto": "10", "es_correcta": false },
+        { "texto": "15", "es_correcta": false },
+        { "texto": "20", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_mf_10", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Cuánto es 6²?",
+      "opciones": [
+        { "texto": "36", "es_correcta": true },
+        { "texto": "12", "es_correcta": false },
+        { "texto": "18", "es_correcta": false },
+        { "texto": "30", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_mf_11", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "La potencia 4² se lee:",
+      "opciones": [
+        { "texto": "Cuatro al cuadrado", "es_correcta": true },
+        { "texto": "Cuatro al cubo", "es_correcta": false },
+        { "texto": "Dos al cuadrado", "es_correcta": false },
+        { "texto": "Cuatro por dos", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_mf_12", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "La potencia 2³ se lee:",
+      "opciones": [
+        { "texto": "Dos al cubo", "es_correcta": true },
+        { "texto": "Dos al cuadrado", "es_correcta": false },
+        { "texto": "Tres al cubo", "es_correcta": false },
+        { "texto": "Dos por tres", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_mf_13", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Qué multiplicación representa la potencia 3²?",
+      "opciones": [
+        { "texto": "3 × 3", "es_correcta": true },
+        { "texto": "3 × 2", "es_correcta": false },
+        { "texto": "2 × 2", "es_correcta": false },
+        { "texto": "3 + 3", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_mf_14", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Qué multiplicación representa la potencia 2⁴?",
+      "opciones": [
+        { "texto": "2 × 2 × 2 × 2", "es_correcta": true },
+        { "texto": "2 × 4", "es_correcta": false },
+        { "texto": "4 × 4", "es_correcta": false },
+        { "texto": "2 + 2 + 2 + 2", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_mf_15", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "Un jardín tiene 2 filas de macetas y, en cada fila, hay 2 macetas. ¿Qué potencia representa el total de macetas?",
+      "opciones": [
+        { "texto": "2²", "es_correcta": true },
+        { "texto": "2 × 4", "es_correcta": false },
+        { "texto": "4²", "es_correcta": false },
+        { "texto": "2 × 3", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_mf_16", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Cuántas macetas hay en total en el jardín de la pregunta anterior?",
+      "opciones": [
+        { "texto": "4", "es_correcta": true },
+        { "texto": "2", "es_correcta": false },
+        { "texto": "8", "es_correcta": false },
+        { "texto": "6", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_mf_17", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "Un estante tiene 3 repisas y, en cada repisa, hay 3 libros. ¿Qué potencia representa el total de libros?",
+      "opciones": [
+        { "texto": "3²", "es_correcta": true },
+        { "texto": "3 × 6", "es_correcta": false },
+        { "texto": "2³", "es_correcta": false },
+        { "texto": "3 × 2", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_mf_18", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Cuántos libros hay en total en el estante de la pregunta anterior?",
+      "opciones": [
+        { "texto": "9", "es_correcta": true },
+        { "texto": "6", "es_correcta": false },
+        { "texto": "12", "es_correcta": false },
+        { "texto": "3", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_mf_19", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Cuánto es 10¹?",
+      "opciones": [
+        { "texto": "10", "es_correcta": true },
+        { "texto": "1", "es_correcta": false },
+        { "texto": "100", "es_correcta": false },
+        { "texto": "0", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_mf_20", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_facil",
+      "enunciado": "¿Cuánto es 1⁴?",
+      "opciones": [
+        { "texto": "1", "es_correcta": true },
+        { "texto": "4", "es_correcta": false },
+        { "texto": "0", "es_correcta": false },
+        { "texto": "14", "es_correcta": false }
+      ]
+    },
+
+    { "id_local": "pot_fa_01", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "En un colegio, cada una de las 6 secciones escribirá 6 tarjetas de agradecimiento. ¿Qué potencia representa la cantidad total de tarjetas?",
+      "opciones": [
+        { "texto": "6²", "es_correcta": true },
+        { "texto": "2⁶", "es_correcta": false },
+        { "texto": "6 × 2", "es_correcta": false },
+        { "texto": "12", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_fa_02", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Cuántas tarjetas se escribirán en total?",
+      "opciones": [
+        { "texto": "36", "es_correcta": true },
+        { "texto": "12", "es_correcta": false },
+        { "texto": "18", "es_correcta": false },
+        { "texto": "64", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_fa_03", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "En el patio de un colegio se plantarán 7 filas de árboles y, en cada fila, se sembrarán 7 árboles. ¿Cuántos árboles se plantarán en total?",
+      "opciones": [
+        { "texto": "49", "es_correcta": true },
+        { "texto": "14", "es_correcta": false },
+        { "texto": "21", "es_correcta": false },
+        { "texto": "77", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_fa_04", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "Una caja tiene 4 paquetes y cada paquete tiene 4 galletas. ¿Cuántas galletas hay en total?",
+      "opciones": [
+        { "texto": "16", "es_correcta": true },
+        { "texto": "8", "es_correcta": false },
+        { "texto": "12", "es_correcta": false },
+        { "texto": "20", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_fa_05", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Cuánto es 4³?",
+      "opciones": [
+        { "texto": "64", "es_correcta": true },
+        { "texto": "12", "es_correcta": false },
+        { "texto": "16", "es_correcta": false },
+        { "texto": "48", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_fa_06", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Cuánto es 5³?",
+      "opciones": [
+        { "texto": "125", "es_correcta": true },
+        { "texto": "15", "es_correcta": false },
+        { "texto": "25", "es_correcta": false },
+        { "texto": "100", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_fa_07", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Cuánto es 6³?",
+      "opciones": [
+        { "texto": "216", "es_correcta": true },
+        { "texto": "18", "es_correcta": false },
+        { "texto": "36", "es_correcta": false },
+        { "texto": "108", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_fa_08", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Cuánto es 8²?",
+      "opciones": [
+        { "texto": "64", "es_correcta": true },
+        { "texto": "16", "es_correcta": false },
+        { "texto": "32", "es_correcta": false },
+        { "texto": "48", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_fa_09", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Cuánto es 9²?",
+      "opciones": [
+        { "texto": "81", "es_correcta": true },
+        { "texto": "18", "es_correcta": false },
+        { "texto": "27", "es_correcta": false },
+        { "texto": "72", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_fa_10", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Cuánto es 10³?",
+      "opciones": [
+        { "texto": "1000", "es_correcta": true },
+        { "texto": "30", "es_correcta": false },
+        { "texto": "100", "es_correcta": false },
+        { "texto": "300", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_fa_11", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "La potencia 10³ se lee:",
+      "opciones": [
+        { "texto": "Diez al cubo", "es_correcta": true },
+        { "texto": "Diez al cuadrado", "es_correcta": false },
+        { "texto": "Tres al cubo", "es_correcta": false },
+        { "texto": "Diez por tres", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_fa_12", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "La potencia 7² se lee:",
+      "opciones": [
+        { "texto": "Siete al cuadrado", "es_correcta": true },
+        { "texto": "Siete al cubo", "es_correcta": false },
+        { "texto": "Dos al cuadrado", "es_correcta": false },
+        { "texto": "Siete por dos", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_fa_13", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "En la potencia 9³, ¿cuál es la base?",
+      "opciones": [
+        { "texto": "9", "es_correcta": true },
+        { "texto": "3", "es_correcta": false },
+        { "texto": "27", "es_correcta": false },
+        { "texto": "729", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_fa_14", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "En la potencia 8², ¿cuál es el exponente?",
+      "opciones": [
+        { "texto": "2", "es_correcta": true },
+        { "texto": "8", "es_correcta": false },
+        { "texto": "16", "es_correcta": false },
+        { "texto": "64", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_fa_15", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Qué multiplicación representa la potencia 5³?",
+      "opciones": [
+        { "texto": "5 × 5 × 5", "es_correcta": true },
+        { "texto": "5 × 3", "es_correcta": false },
+        { "texto": "3 × 3 × 3", "es_correcta": false },
+        { "texto": "5 × 3 × 3", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_fa_16", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Qué multiplicación representa la potencia 3⁴?",
+      "opciones": [
+        { "texto": "3 × 3 × 3 × 3", "es_correcta": true },
+        { "texto": "3 × 4", "es_correcta": false },
+        { "texto": "4 × 4 × 4", "es_correcta": false },
+        { "texto": "4 × 3 × 3", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_fa_17", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Cuál de las siguientes opciones representa 'seis elevado al cubo'?",
+      "opciones": [
+        { "texto": "6³", "es_correcta": true },
+        { "texto": "3⁶", "es_correcta": false },
+        { "texto": "6 × 3", "es_correcta": false },
+        { "texto": "6²", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_fa_18", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Cuál de las siguientes opciones representa 'nueve elevado al cuadrado'?",
+      "opciones": [
+        { "texto": "9²", "es_correcta": true },
+        { "texto": "2⁹", "es_correcta": false },
+        { "texto": "9 × 2", "es_correcta": false },
+        { "texto": "9³", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_fa_19", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "Un tablero de avisos tiene 8 filas y, en cada fila, hay 8 focos. ¿Qué potencia representa el total de focos?",
+      "opciones": [
+        { "texto": "8²", "es_correcta": true },
+        { "texto": "2⁸", "es_correcta": false },
+        { "texto": "8 × 2", "es_correcta": false },
+        { "texto": "16", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_fa_20", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "facil",
+      "enunciado": "¿Cuántos focos hay en total en el tablero de la pregunta anterior?",
+      "opciones": [
+        { "texto": "64", "es_correcta": true },
+        { "texto": "16", "es_correcta": false },
+        { "texto": "24", "es_correcta": false },
+        { "texto": "88", "es_correcta": false }
+      ]
+    },
+
+    { "id_local": "pot_no_01", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "Con motivo del Día del Logro, 4 aulas prepararán 4 grupos cada una y, en cada grupo, se armarán 4 tarjetas. ¿Qué potencia representa la cantidad total de tarjetas?",
+      "opciones": [
+        { "texto": "4³", "es_correcta": true },
+        { "texto": "3⁴", "es_correcta": false },
+        { "texto": "4 × 3", "es_correcta": false },
+        { "texto": "12", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_no_02", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Cuántas tarjetas se armarán en total?",
+      "opciones": [
+        { "texto": "64", "es_correcta": true },
+        { "texto": "12", "es_correcta": false },
+        { "texto": "48", "es_correcta": false },
+        { "texto": "81", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_no_03", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "Una caja de bombones contiene 5 paquetes; cada paquete tiene 5 bolsitas y cada bolsita, 5 bombones. ¿Cuántos bombones hay en toda la caja?",
+      "opciones": [
+        { "texto": "125", "es_correcta": true },
+        { "texto": "15", "es_correcta": false },
+        { "texto": "555", "es_correcta": false },
+        { "texto": "25", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_no_04", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Qué potencia representa la cantidad total de bombones de la pregunta anterior?",
+      "opciones": [
+        { "texto": "5³", "es_correcta": true },
+        { "texto": "3⁵", "es_correcta": false },
+        { "texto": "5 × 3", "es_correcta": false },
+        { "texto": "15", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_no_05", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "Un almacén tiene 6 pasillos; en cada pasillo hay 6 estantes y, en cada estante, 6 cajas. ¿Cuántas cajas hay en todo el almacén?",
+      "opciones": [
+        { "texto": "216", "es_correcta": true },
+        { "texto": "18", "es_correcta": false },
+        { "texto": "36", "es_correcta": false },
+        { "texto": "666", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_no_06", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Qué potencia representa la cantidad total de cajas del almacén de la pregunta anterior?",
+      "opciones": [
+        { "texto": "6³", "es_correcta": true },
+        { "texto": "3⁶", "es_correcta": false },
+        { "texto": "6 × 3", "es_correcta": false },
+        { "texto": "18", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_no_07", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "La potencia 4³ se lee:",
+      "opciones": [
+        { "texto": "Cuatro al cubo", "es_correcta": true },
+        { "texto": "Cuatro al cuadrado", "es_correcta": false },
+        { "texto": "Tres al cubo", "es_correcta": false },
+        { "texto": "Cuatro por tres", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_no_08", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "La potencia 10² se lee:",
+      "opciones": [
+        { "texto": "Diez al cuadrado", "es_correcta": true },
+        { "texto": "Diez al cubo", "es_correcta": false },
+        { "texto": "Dos a la décima", "es_correcta": false },
+        { "texto": "Diez por dos", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_no_09", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "La situación del almacén de la pregunta 5 se representa con la potencia 6³. ¿Qué representa la base (el número 6)?",
+      "opciones": [
+        { "texto": "El número que se repite en cada nivel", "es_correcta": true },
+        { "texto": "La cantidad de niveles", "es_correcta": false },
+        { "texto": "El resultado final de la operación", "es_correcta": false },
+        { "texto": "La cantidad de veces que se multiplica", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_no_10", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "En la potencia 4³, ¿qué representa el exponente 3?",
+      "opciones": [
+        { "texto": "La cantidad de veces que se repite la base", "es_correcta": true },
+        { "texto": "El número que se repite", "es_correcta": false },
+        { "texto": "El resultado de la multiplicación", "es_correcta": false },
+        { "texto": "La mitad de la base", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_no_11", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Cuánto es 7²?",
+      "opciones": [
+        { "texto": "49", "es_correcta": true },
+        { "texto": "14", "es_correcta": false },
+        { "texto": "21", "es_correcta": false },
+        { "texto": "77", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_no_12", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Cuánto es 8³?",
+      "opciones": [
+        { "texto": "512", "es_correcta": true },
+        { "texto": "24", "es_correcta": false },
+        { "texto": "64", "es_correcta": false },
+        { "texto": "256", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_no_13", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Cuánto es 9²?",
+      "opciones": [
+        { "texto": "81", "es_correcta": true },
+        { "texto": "18", "es_correcta": false },
+        { "texto": "27", "es_correcta": false },
+        { "texto": "729", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_no_14", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "En un vivero, el número 3 se multiplica por sí mismo 4 veces (3 × 3 × 3 × 3). ¿Qué potencia representa esa multiplicación?",
+      "opciones": [
+        { "texto": "3⁴", "es_correcta": true },
+        { "texto": "4³", "es_correcta": false },
+        { "texto": "3 × 4", "es_correcta": false },
+        { "texto": "12", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_no_15", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "Se sabe que 5 se multiplica por sí mismo 3 veces. ¿Qué potencia representa esta situación?",
+      "opciones": [
+        { "texto": "5³", "es_correcta": true },
+        { "texto": "3⁵", "es_correcta": false },
+        { "texto": "5 × 3", "es_correcta": false },
+        { "texto": "15", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_no_16", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "Se sabe que 7 se multiplica por sí mismo 2 veces. ¿Qué potencia representa esta situación?",
+      "opciones": [
+        { "texto": "7²", "es_correcta": true },
+        { "texto": "2⁷", "es_correcta": false },
+        { "texto": "7 × 2", "es_correcta": false },
+        { "texto": "14", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_no_17", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "En una feria, un tablero de luces tiene 10 filas y cada fila tiene 10 focos. ¿Cuántos focos hay en total?",
+      "opciones": [
+        { "texto": "100", "es_correcta": true },
+        { "texto": "20", "es_correcta": false },
+        { "texto": "200", "es_correcta": false },
+        { "texto": "1000", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_no_18", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Qué potencia representa la cantidad total de focos de la pregunta anterior?",
+      "opciones": [
+        { "texto": "10²", "es_correcta": true },
+        { "texto": "2¹⁰", "es_correcta": false },
+        { "texto": "10 × 2", "es_correcta": false },
+        { "texto": "10³", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_no_19", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Cuánto es 2⁵?",
+      "opciones": [
+        { "texto": "32", "es_correcta": true },
+        { "texto": "10", "es_correcta": false },
+        { "texto": "25", "es_correcta": false },
+        { "texto": "16", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_no_20", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "normal",
+      "enunciado": "¿Cuánto es 4⁴?",
+      "opciones": [
+        { "texto": "256", "es_correcta": true },
+        { "texto": "16", "es_correcta": false },
+        { "texto": "64", "es_correcta": false },
+        { "texto": "128", "es_correcta": false }
+      ]
+    },
+
+    { "id_local": "pot_di_01", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "En un campeonato escolar hay 4 categorías. En cada categoría participan 4 equipos, cada equipo forma 4 filas y, en cada fila, hay 4 estudiantes. ¿Qué potencia representa la cantidad total de estudiantes?",
+      "opciones": [
+        { "texto": "4⁴", "es_correcta": true },
+        { "texto": "4³", "es_correcta": false },
+        { "texto": "4 × 4", "es_correcta": false },
+        { "texto": "16", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_di_02", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Cuántos estudiantes participan en total en el campeonato de la pregunta anterior?",
+      "opciones": [
+        { "texto": "256", "es_correcta": true },
+        { "texto": "16", "es_correcta": false },
+        { "texto": "64", "es_correcta": false },
+        { "texto": "81", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_di_03", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "Para un proyecto, Rosa arma un cubo grande con cubitos: 7 cubitos de largo, 7 de ancho y 7 de alto. ¿Qué potencia representa la cantidad total de cubitos?",
+      "opciones": [
+        { "texto": "7³", "es_correcta": true },
+        { "texto": "3⁷", "es_correcta": false },
+        { "texto": "7 × 3", "es_correcta": false },
+        { "texto": "21", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_di_04", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Cuántos cubitos usó Rosa en total?",
+      "opciones": [
+        { "texto": "343", "es_correcta": true },
+        { "texto": "21", "es_correcta": false },
+        { "texto": "49", "es_correcta": false },
+        { "texto": "147", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_di_05", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "Para decorar una pared, se colocará un mosaico cuadrado formado por 12 filas y 12 columnas de azulejos. ¿Cuántos azulejos se colocarán en total?",
+      "opciones": [
+        { "texto": "144", "es_correcta": true },
+        { "texto": "24", "es_correcta": false },
+        { "texto": "48", "es_correcta": false },
+        { "texto": "122", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_di_06", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Qué potencia representa la cantidad total de azulejos de la pregunta anterior?",
+      "opciones": [
+        { "texto": "12²", "es_correcta": true },
+        { "texto": "2¹²", "es_correcta": false },
+        { "texto": "12 × 2", "es_correcta": false },
+        { "texto": "24", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_di_07", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "Un estudiante afirma que 4³ es igual a 4 × 3 = 12. ¿Es correcto su razonamiento?",
+      "opciones": [
+        { "texto": "No, 4³ = 4 × 4 × 4 = 64", "es_correcta": true },
+        { "texto": "Sí, 4³ = 12", "es_correcta": false },
+        { "texto": "No, 4³ = 4 × 3 × 3 = 36", "es_correcta": false },
+        { "texto": "Sí, porque 4 y 3 se multiplican", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_di_08", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Qué potencia representa '8 multiplicado por sí mismo 4 veces'?",
+      "opciones": [
+        { "texto": "8⁴", "es_correcta": true },
+        { "texto": "4⁸", "es_correcta": false },
+        { "texto": "8 × 4", "es_correcta": false },
+        { "texto": "32", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_di_09", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Cuánto es 8⁴?",
+      "opciones": [
+        { "texto": "4096", "es_correcta": true },
+        { "texto": "512", "es_correcta": false },
+        { "texto": "2048", "es_correcta": false },
+        { "texto": "32", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_di_10", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Cuánto es 12³?",
+      "opciones": [
+        { "texto": "1728", "es_correcta": true },
+        { "texto": "144", "es_correcta": false },
+        { "texto": "36", "es_correcta": false },
+        { "texto": "864", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_di_11", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Cuánto es 9³?",
+      "opciones": [
+        { "texto": "729", "es_correcta": true },
+        { "texto": "81", "es_correcta": false },
+        { "texto": "27", "es_correcta": false },
+        { "texto": "243", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_di_12", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Cuánto es 6⁴?",
+      "opciones": [
+        { "texto": "1296", "es_correcta": true },
+        { "texto": "216", "es_correcta": false },
+        { "texto": "24", "es_correcta": false },
+        { "texto": "648", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_di_13", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "La potencia 12² se lee:",
+      "opciones": [
+        { "texto": "Doce al cuadrado", "es_correcta": true },
+        { "texto": "Doce al cubo", "es_correcta": false },
+        { "texto": "Dos a la doceava", "es_correcta": false },
+        { "texto": "Doce por dos", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_di_14", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "La potencia 9³ se lee:",
+      "opciones": [
+        { "texto": "Nueve al cubo", "es_correcta": true },
+        { "texto": "Nueve al cuadrado", "es_correcta": false },
+        { "texto": "Tres al cubo", "es_correcta": false },
+        { "texto": "Nueve por tres", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_di_15", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "En la potencia 8⁴, ¿qué representa el número 4?",
+      "opciones": [
+        { "texto": "La cantidad de veces que se repite la base como factor", "es_correcta": true },
+        { "texto": "El resultado de la potencia", "es_correcta": false },
+        { "texto": "El número que se repite", "es_correcta": false },
+        { "texto": "La mitad de la base", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_di_16", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "En una feria hay 7 puestos; cada puesto tiene 7 mesas, cada mesa tiene 7 cajas y cada caja tiene 7 premios. ¿Qué potencia representa el total de premios?",
+      "opciones": [
+        { "texto": "7⁴", "es_correcta": true },
+        { "texto": "4⁷", "es_correcta": false },
+        { "texto": "7³", "es_correcta": false },
+        { "texto": "28", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_di_17", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Cuántos premios hay en total en la feria de la pregunta anterior?",
+      "opciones": [
+        { "texto": "2401", "es_correcta": true },
+        { "texto": "343", "es_correcta": false },
+        { "texto": "49", "es_correcta": false },
+        { "texto": "28", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_di_18", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Cuánto es 2⁶?",
+      "opciones": [
+        { "texto": "64", "es_correcta": true },
+        { "texto": "12", "es_correcta": false },
+        { "texto": "32", "es_correcta": false },
+        { "texto": "128", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_di_19", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "¿Cuánto es 6⁵?",
+      "opciones": [
+        { "texto": "7776", "es_correcta": true },
+        { "texto": "1296", "es_correcta": false },
+        { "texto": "216", "es_correcta": false },
+        { "texto": "30", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_di_20", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "dificil",
+      "enunciado": "Diego afirma que 6² = 2 × 6 = 12. ¿Cuál es el resultado correcto de 6²?",
+      "opciones": [
+        { "texto": "36", "es_correcta": true },
+        { "texto": "12", "es_correcta": false },
+        { "texto": "18", "es_correcta": false },
+        { "texto": "64", "es_correcta": false }
+      ]
+    },
+
+    { "id_local": "pot_md_01", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "Una caja contiene 3 cajas más pequeñas; cada una de estas contiene otras 3 cajas y, en cada una, hay 3 pelotas. ¿Cuántas pelotas hay en total?",
+      "opciones": [
+        { "texto": "27", "es_correcta": true },
+        { "texto": "9", "es_correcta": false },
+        { "texto": "18", "es_correcta": false },
+        { "texto": "12", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_md_02", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Qué potencia representa la cantidad total de pelotas de la pregunta anterior?",
+      "opciones": [
+        { "texto": "3³", "es_correcta": true },
+        { "texto": "3²", "es_correcta": false },
+        { "texto": "4³", "es_correcta": false },
+        { "texto": "3⁴", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_md_03", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "Mario dice que, para hallar el total de flores en un jardín con 6 filas de 6 flores cada una, basta con hacer 6 × 2 = 12. ¿Es correcto su razonamiento?",
+      "opciones": [
+        { "texto": "No, en total son 6² = 36 flores", "es_correcta": true },
+        { "texto": "Sí, en total son 12 flores", "es_correcta": false },
+        { "texto": "No, en total son 2⁶ = 64 flores", "es_correcta": false },
+        { "texto": "No, en total son 6² = 12 flores", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_md_04", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "En la potencia 2⁵, ¿qué representa el número 5?",
+      "opciones": [
+        { "texto": "La cantidad de veces que 2 se multiplica por sí mismo", "es_correcta": true },
+        { "texto": "El resultado final de la potencia", "es_correcta": false },
+        { "texto": "La base de la potencia", "es_correcta": false },
+        { "texto": "La mitad del resultado", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_md_05", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Cuál es el resultado de la potencia 7² (no la base ni el exponente)?",
+      "opciones": [
+        { "texto": "49", "es_correcta": true },
+        { "texto": "7", "es_correcta": false },
+        { "texto": "2", "es_correcta": false },
+        { "texto": "14", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_md_06", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Cuánto es 2⁷?",
+      "opciones": [
+        { "texto": "128", "es_correcta": true },
+        { "texto": "49", "es_correcta": false },
+        { "texto": "64", "es_correcta": false },
+        { "texto": "14", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_md_07", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Cuánto es 3⁵?",
+      "opciones": [
+        { "texto": "243", "es_correcta": true },
+        { "texto": "15", "es_correcta": false },
+        { "texto": "81", "es_correcta": false },
+        { "texto": "125", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_md_08", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Cuánto es 11²?",
+      "opciones": [
+        { "texto": "121", "es_correcta": true },
+        { "texto": "22", "es_correcta": false },
+        { "texto": "111", "es_correcta": false },
+        { "texto": "1001", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_md_09", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Cuánto es 10⁵?",
+      "opciones": [
+        { "texto": "100000", "es_correcta": true },
+        { "texto": "50", "es_correcta": false },
+        { "texto": "10000", "es_correcta": false },
+        { "texto": "1000000", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_md_10", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "Una empresa tiene 5 sucursales; cada sucursal tiene 5 pisos, cada piso tiene 5 oficinas y cada oficina tiene 5 empleados. ¿Qué potencia representa el total de empleados?",
+      "opciones": [
+        { "texto": "5⁴", "es_correcta": true },
+        { "texto": "4⁵", "es_correcta": false },
+        { "texto": "5 × 4", "es_correcta": false },
+        { "texto": "20", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_md_11", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Cuántos empleados tiene la empresa de la pregunta anterior?",
+      "opciones": [
+        { "texto": "625", "es_correcta": true },
+        { "texto": "20", "es_correcta": false },
+        { "texto": "125", "es_correcta": false },
+        { "texto": "100", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_md_12", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Cuál de estas potencias tiene mayor valor: 2⁵ o 5²?",
+      "opciones": [
+        { "texto": "2⁵", "es_correcta": true },
+        { "texto": "5²", "es_correcta": false },
+        { "texto": "Son iguales", "es_correcta": false },
+        { "texto": "No se puede saber", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_md_13", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Cuál de estas potencias tiene mayor valor: 3³ o 2⁴?",
+      "opciones": [
+        { "texto": "3³", "es_correcta": true },
+        { "texto": "2⁴", "es_correcta": false },
+        { "texto": "Son iguales", "es_correcta": false },
+        { "texto": "No se puede saber", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_md_14", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "Un número elevado al cuadrado da como resultado 100. ¿Cuál es ese número?",
+      "opciones": [
+        { "texto": "10", "es_correcta": true },
+        { "texto": "50", "es_correcta": false },
+        { "texto": "20", "es_correcta": false },
+        { "texto": "5", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_md_15", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "Un número elevado al cubo da como resultado 27. ¿Cuál es ese número?",
+      "opciones": [
+        { "texto": "3", "es_correcta": true },
+        { "texto": "9", "es_correcta": false },
+        { "texto": "6", "es_correcta": false },
+        { "texto": "13", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_md_16", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "Un estudiante afirma que 5³ y 3⁵ son iguales porque tienen los mismos números. ¿Es correcto?",
+      "opciones": [
+        { "texto": "No, 5³ = 125 y 3⁵ = 243, son diferentes", "es_correcta": true },
+        { "texto": "Sí, ambas son iguales a 15", "es_correcta": false },
+        { "texto": "Sí, ambas son iguales a 125", "es_correcta": false },
+        { "texto": "Sí, ambas son iguales a 243", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_md_17", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "Un teatro tiene 8 filas de 8 butacas cada una y ya se han ocupado 40 butacas. ¿Cuántas butacas quedan libres?",
+      "opciones": [
+        { "texto": "24", "es_correcta": true },
+        { "texto": "64", "es_correcta": false },
+        { "texto": "16", "es_correcta": false },
+        { "texto": "32", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_md_18", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Cuánto es 9¹?",
+      "opciones": [
+        { "texto": "9", "es_correcta": true },
+        { "texto": "1", "es_correcta": false },
+        { "texto": "0", "es_correcta": false },
+        { "texto": "81", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_md_19", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "¿Cuánto es 4⁵?",
+      "opciones": [
+        { "texto": "1024", "es_correcta": true },
+        { "texto": "256", "es_correcta": false },
+        { "texto": "512", "es_correcta": false },
+        { "texto": "20", "es_correcta": false }
+      ]
+    },
+    { "id_local": "pot_md_20", "tema_local": "potenciacion", "tipo": "evaluacion_tema", "dificultad": "muy_dificil",
+      "enunciado": "Un terreno cuadrado tiene 9² m² y otro terreno tiene 3⁴ m². ¿Son iguales las áreas de ambos terrenos?",
+      "opciones": [
+        { "texto": "Sí, ambos miden 81 m²", "es_correcta": true },
+        { "texto": "No, el primero es más grande", "es_correcta": false },
+        { "texto": "No, el segundo es más grande", "es_correcta": false },
+        { "texto": "No se puede comparar", "es_correcta": false }
+      ]
+    }
+  ]
+}

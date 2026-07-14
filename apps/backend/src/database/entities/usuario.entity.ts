@@ -4,11 +4,13 @@ import {
   Entity,
   Index,
   OneToMany,
+  OneToOne,
   PrimaryGeneratedColumn,
 } from 'typeorm';
 import { EstadoUsuario, RolUsuario } from '../enums';
 import { Evaluacion } from './evaluacion.entity';
 import { PuntosCurso } from './puntos-curso.entity';
+import { TiempoUsuario } from './tiempo-usuario.entity';
 import { UsuarioLogro } from './usuario-logro.entity';
 
 @Entity('usuarios')
@@ -44,4 +46,7 @@ export class Usuario {
 
   @OneToMany(() => UsuarioLogro, (ul) => ul.usuario)
   usuario_logros: UsuarioLogro[];
+
+  @OneToOne(() => TiempoUsuario, (tiempo) => tiempo.usuario)
+  tiempo_usuario: TiempoUsuario;
 }

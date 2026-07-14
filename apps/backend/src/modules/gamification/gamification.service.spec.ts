@@ -3,6 +3,7 @@ import { getRepositoryToken } from '@nestjs/typeorm';
 import { Evaluacion } from '../../database/entities/evaluacion.entity';
 import { Logro } from '../../database/entities/logro.entity';
 import { PuntosCurso } from '../../database/entities/puntos-curso.entity';
+import { TiempoUsuario } from '../../database/entities/tiempo-usuario.entity';
 import { UsuarioLogro } from '../../database/entities/usuario-logro.entity';
 import { NivelDificultad } from '../../database/enums';
 import { GamificationService } from './gamification.service';
@@ -53,6 +54,12 @@ describe('GamificationService', () => {
     count: jest.fn(),
   };
 
+  const mockTiempoUsuarioRepo = {
+    findOne: jest.fn(),
+    create: jest.fn((dto: Partial<TiempoUsuario>) => ({ ...dto })),
+    save: jest.fn((entity: TiempoUsuario) => Promise.resolve(entity)),
+  };
+
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
       providers: [
@@ -61,6 +68,7 @@ describe('GamificationService', () => {
         { provide: getRepositoryToken(Logro), useValue: mockLogroRepo },
         { provide: getRepositoryToken(UsuarioLogro), useValue: mockUsuarioLogroRepo },
         { provide: getRepositoryToken(Evaluacion), useValue: mockEvaluacionRepo },
+        { provide: getRepositoryToken(TiempoUsuario), useValue: mockTiempoUsuarioRepo },
       ],
     }).compile();
 
@@ -76,6 +84,10 @@ describe('GamificationService', () => {
     );
     mockPuntosCursoRepo.create.mockImplementation((dto: Partial<PuntosCurso>) => ({ ...dto }));
     mockPuntosCursoRepo.save.mockImplementation((entity: PuntosCurso) => Promise.resolve(entity));
+    mockTiempoUsuarioRepo.create.mockImplementation((dto: Partial<TiempoUsuario>) => ({ ...dto }));
+    mockTiempoUsuarioRepo.save.mockImplementation((entity: TiempoUsuario) =>
+      Promise.resolve(entity),
+    );
     mockQueryBuilder.where.mockReturnThis();
     mockQueryBuilder.andWhere.mockReturnThis();
     mockQueryBuilder.getCount.mockResolvedValue(0);
@@ -190,6 +202,31 @@ describe('GamificationService', () => {
 
       expect(ranking.puntosTotal).toBe(150);
       expect(ranking.posicion).toBe(1);
+    });
+  });
+
+  // ─── registrarTiempo ──────────────────────────────────────────────────────
+
+  describe('registrarTiempo', () => {
+    it('crea una nueva fila si el usuario no tiene tiempo registrado', async () => {
+      mockTiempoUsuarioRepo.findOne.mockResolvedValue(null);
+
+      const total = await service.registrarTiempo(USUARIO_ID, 120);
+
+      expect(mockTiempoUsuarioRepo.create).toHaveBeenCalledWith({
+        usuario_id: USUARIO_ID,
+        segundos_totales: 120,
+      });
+      expect(total).toBe(120);
+    });
+
+    it('suma segundos si el usuario ya tiene fila existente', async () => {
+      const existente = { usuario_id: USUARIO_ID, segundos_totales: 300 };
+      mockTiempoUsuarioRepo.findOne.mockResolvedValue(existente);
+
+      const total = await service.registrarTiempo(USUARIO_ID, 90);
+
+      expect(total).toBe(390);
     });
   });
 });

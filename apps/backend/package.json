@@ -12,7 +12,10 @@
     "migration:revert": "typeorm-ts-node-commonjs migration:revert -d src/config/database.config.ts",
     "migration:generate": "typeorm-ts-node-commonjs migration:generate src/database/migrations/Migration -d src/config/database.config.ts",
     "seed:run": "ts-node src/database/seeds/seed.ts",
-    "seed:tahuantinsuyo": "ts-node src/database/seeds/seed-tahuantinsuyo.ts"
+    "seed:tahuantinsuyo": "ts-node src/database/seeds/seed-tahuantinsuyo.ts",
+    "seed:potenciacion": "ts-node src/database/seeds/seed-potenciacion.ts",
+    "seed:alumnos": "ts-node src/database/seeds/seed-alumnos.ts",
+    "db:reset": "ts-node src/database/seeds/reset-db.ts"
   },
   "dependencies": {
     "@nestjs/common": "^10.0.0",

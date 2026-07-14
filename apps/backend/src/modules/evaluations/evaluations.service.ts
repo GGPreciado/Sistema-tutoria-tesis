@@ -203,7 +203,13 @@ export class EvaluationsService {
     });
     await this.resultadoRepo.save(resultado);
 
-    await this.evaluacionRepo.update(evaluacionId, { finalizado_en: new Date() });
+    const finalizadoEn = new Date();
+    await this.evaluacionRepo.update(evaluacionId, { finalizado_en: finalizadoEn });
+
+    const segundosEvaluacion = Math.max(
+      0,
+      Math.round((finalizadoEn.getTime() - evaluacion.creado_en.getTime()) / 1000),
+    );
 
     const [rankingActualizado, logrosDesbloqueados] = await Promise.all([
       this.gamificationService.asignarPuntos(
@@ -217,6 +223,7 @@ export class EvaluationsService {
         numAciertosConsecutivos,
         dificultadActual: decision.dificultadSiguiente,
       }),
+      this.gamificationService.registrarTiempo(usuario.id, segundosEvaluacion),
     ]);
 
     return {

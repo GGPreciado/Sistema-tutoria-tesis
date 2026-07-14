@@ -151,6 +151,19 @@ COMMENT ON COLUMN resultados_evaluacion.indice_desempeno IS 'Índice de Desempe�
 COMMENT ON COLUMN resultados_evaluacion.dificultad_actual IS 'Nivel de dificultad asignado al estudiante después de aplicar el motor adaptativo.';
 
 -- =============================================================
+-- TIEMPO DE USO
+-- =============================================================
+
+CREATE TABLE tiempo_usuario (
+    usuario_id          uuid            PRIMARY KEY REFERENCES usuarios(id) ON DELETE CASCADE,
+    segundos_totales    int             NOT NULL DEFAULT 0,
+    actualizado_en      timestamptz     NOT NULL DEFAULT now()
+);
+
+COMMENT ON TABLE tiempo_usuario IS 'Acumulado de segundos que cada usuario ha pasado resolviendo evaluaciones. Una fila por usuario.';
+COMMENT ON COLUMN tiempo_usuario.segundos_totales IS 'Suma de la duración (finalizado_en - creado_en) de todas las evaluaciones finalizadas por el usuario.';
+
+-- =============================================================
 -- GAMIFICACIÓN: puntos y logros
 -- =============================================================
 

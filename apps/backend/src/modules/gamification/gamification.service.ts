@@ -4,6 +4,7 @@ import { IsNull, Not, Repository } from 'typeorm';
 import { Evaluacion } from '../../database/entities/evaluacion.entity';
 import { Logro } from '../../database/entities/logro.entity';
 import { PuntosCurso } from '../../database/entities/puntos-curso.entity';
+import { TiempoUsuario } from '../../database/entities/tiempo-usuario.entity';
 import { UsuarioLogro } from '../../database/entities/usuario-logro.entity';
 import { NivelDificultad } from '../../database/enums';
 
@@ -37,7 +38,30 @@ export class GamificationService {
     private readonly usuarioLogroRepo: Repository<UsuarioLogro>,
     @InjectRepository(Evaluacion)
     private readonly evaluacionRepo: Repository<Evaluacion>,
+    @InjectRepository(TiempoUsuario)
+    private readonly tiempoUsuarioRepo: Repository<TiempoUsuario>,
   ) {}
+
+  /**
+   * Suma segundos al acumulado de tiempo del usuario. Crea la fila si no existe.
+   */
+  async registrarTiempo(usuarioId: string, segundos: number): Promise<number> {
+    let tiempoUsuario = await this.tiempoUsuarioRepo.findOne({
+      where: { usuario_id: usuarioId },
+    });
+
+    if (!tiempoUsuario) {
+      tiempoUsuario = this.tiempoUsuarioRepo.create({
+        usuario_id: usuarioId,
+        segundos_totales: segundos,
+      });
+    } else {
+      tiempoUsuario.segundos_totales += segundos;
+    }
+
+    await this.tiempoUsuarioRepo.save(tiempoUsuario);
+    return tiempoUsuario.segundos_totales;
+  }
 
   /**
    * Suma puntos al acumulado del usuario en el curso. Crea la fila si no existe.
